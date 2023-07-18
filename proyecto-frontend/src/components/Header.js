@@ -20,7 +20,7 @@ function Header() {
                 </li>
                 <li><a href="#SoftSkills">SOFT SKILLS</a></li>
                 <li><a href="#Contactar">CONTACTAR</a></li>
-                <li className="dropdown last_li"><a href="#Objetivos">IDIOMA <span className="material-symbols-outlined">expand_more</span></a>
+                <li className="dropdown last_li"><a className='idioma' href="#Objetivos">IDIOMA <span className="material-symbols-outlined">expand_more</span></a>
                     <ul className="content_dropdown">
                         <li><a href="#Objetivos">CAT</a></li>
                         <li><a href="#Objetivos">ES</a></li>
@@ -28,7 +28,7 @@ function Header() {
                     </ul>
                 </li>
             </ul>
-            <button className="btn_menu" id="btn_menu" onClick={()=>{setOpen_menu(!open_menu)}}><span className="material-symbols-outlined span_menu">Menu</span></button>
+            <button className="btn_menu" id="btn_menu" onClick={()=>{setOpen_menu(!open_menu)}}><span className="material-symbols-outlined span_menu">{open_menu ? "Close" : "Menu"}</span></button>
         </header>
     );
 }
