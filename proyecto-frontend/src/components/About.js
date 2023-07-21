@@ -10,8 +10,8 @@ function About() {
                 <div className="perfil_card" onClick={()=>{setOpen_perfil_card(true)}}>
                     <div className="foto_perfil"></div>
                     <ul className="ul_perfil_1">
-                        <li>Graduado en Química.</li>
-                        <li>Posgrado en Inteligencia de Negocio y Análisis de Datos.</li>
+                        <li>Graduado en Química</li>
+                        <li>Posgrado en Inteligencia de Negocio y Análisis de Datos</li>
                     </ul>
                     <ul className="ul_perfil_2">
                         <li>Apasionado de los datos, amante del queso y amigo de los perros. Junior Data Scientist,
