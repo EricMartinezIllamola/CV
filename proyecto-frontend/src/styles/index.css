@@ -808,6 +808,63 @@ footer {
     display: none;
 }
 
+#Project_1, #Project_2 {
+    width: 100%;
+    min-height: 89vh;
+    height: auto;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+section .text_code {
+
+}
+
+section .text_png {
+    margin-top: 30px;
+}
+
+section .text_png p {
+    white-space: pre-line;
+}
+
+section .text_png img {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+section .text_png img.img_P1_1 {
+    width: 200px;
+    height: 300px;
+    background-image: url(../img_1/num_docs_tematica_table.PNG);
+} 
+
+section .text_png .img_P1_2 {
+    width: 500px;
+    height: 300px;
+    background-image: url(../img_1/num_docs_tematica.png);
+}
+
+section .text_png img.img_P2_1 {
+    width: 600px;
+    height: 220px;
+    background-image: url(../img_2/countries_head_total.PNG);
+} 
+
+section .text_png .img_P2_2 {
+    width: 400px;
+    height: 230px;
+    background-image: url(../img_2/countries_head_5.PNG);
+}
+
+section .text_png .img_P2_3 {
+    width: 580px;
+    height: 220px;
+    background-image: url(../img_2/countries_sum_5.PNG);
+}
+
 @media (max-width: 720px) {
     .btn_menu {
         display: block;

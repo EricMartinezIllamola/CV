@@ -30,7 +30,7 @@ function HardSkills() {
                         <div className="col img"></div>
                     </div>
                     <div className="row">
-                        <div className="col-12 span">Gestión del Dato:</div>
+                        <div className="col-12 span">ETL y Gestión del Dato:</div>
                         <div className="col-12 col-sm img img_C1"></div>
                         <div className="col-12 col-sm img img_C2"></div>
                         <div className="col-12 col-sm img img_C3"></div>
