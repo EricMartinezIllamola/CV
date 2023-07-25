@@ -12,7 +12,7 @@ function Project_2() {
                     </p>
                     <div id="panelsStayOpen-collapseOne_1" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                            {'#Definimos directorio de trabajo \n \n setwd(“ruta”) \n \n #Cargamos los paquetes necesarios \n \n library(tm) \n library(plyr) \n library(class) \n library(caret) \n\n #Leemos los datos \n \n options(stringsAsFactors = FALSE) \n data <- read.table("data_reuter.txt", header=FALSE, sep="\\t")'}
+                            {'#Definimos directorio de trabajo y cargamos los datos \n \nsetwd(“ruta”) \ncountries = read.csv("Country-data.csv", na.string = c("", "NA"))'}
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ function Project_2() {
                     </p>
                     <div id="panelsStayOpen-collapseOne_2" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                            {'#Definimos directorio de trabajo \n \n setwd(“ruta”) \n \n #Cargamos los paquetes necesarios \n \n library(tm) \n library(plyr) \n library(class) \n library(caret) \n\n #Leemos los datos \n \n options(stringsAsFactors = FALSE) \n data <- read.table("data_reuter.txt", header=FALSE, sep="\\t")'}
+                            {'#K-means \n \nclus_norm<-clus \nclus_norm[,c("child_mort")] <- (clus$child_mort-mean(clus$child_mort))/sd(clus$child_mort) \nclus_norm[,c("life_expec")] <- (clus$life_expec-mean(clus$life_expec))/sd(clus$life_expec) \nclus_norm[,c("health")] <- (clus$health-mean(clus$health))/sd(clus$health) \nclus_norm[,c("gdpp")] <- (clus$gdpp-mean(clus$gdpp))/sd(clus$gdpp) \nclus_norm[,c("income")] <- (clus$income-mean(clus$income))/sd(clus$income) \n \nset.seed(123) \nbss <- kmeans(clus_norm,centers=1)$betweenss \nfor (i in 2:10) bss[i] <- kmeans(clus_norm,centers=i)$betweenss'}
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ function Project_2() {
                     </p>
                     <div id="panelsStayOpen-collapseOne_3" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                            {'#Transformación para agregar las frecuencias (temática acq) \n \nmmat_acq <- as.matrix(mat[[1]]$mat) \n v_acq <- sort(rowSums(mmat_acq), decreasing=TRUE) \nd_acq <- data.frame(word=names(v_acq), freq=v_acq) \nd_acq[,3]<-"acq" \n \n#Transformación para agregar las frecuencias (temática earn) \n \nmmat_earn <- as.matrix(mat[[2]]$mat) \nv_earn <- sort(rowSums(mmat_earn), decreasing=TRUE) \nd_earn <- data.frame(word=names(v_earn), freq=v_earn) \nd_earn[,3]<-"earn" \n \n#Juntamos las 2 matrices y cambiamos el nombre de las columnas \n \nfdata<-rbind(d_acq,d_earn) \ncolnames(fdata)<-c("Palabra", "Frecuencia", "Tematica") \ncolnames(d_acq)<-c("Palabra", "Frecuencia", "Tematica") \ncolnames(d_earn)<-c("Palabra", "Frecuencia", "Tematica")'}
+                            {'clus_kmeans=clus \nNumCluster=5 \nset.seed(123) \nModelo=kmeans(clus_norm,NumCluster) \nclus_kmeans$clusterKmeans= Modelo$cluster'}
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ function Project_2() {
                     </p>
                     <div id="panelsStayOpen-collapseOne_4" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                            {'#Creación de un data.frame apto para K-NN \n \n#Acq \n \ns.mat_acq <- t(data.matrix(mat[[1]]$mat)) \ns.df_acq <- as.data.frame(s.mat_acq, stringsAsFactors = FALSE) \nTema <- rep(mat[[1]]$name, nrow(s.df_acq)) \ns.df_acq<-cbind(s.df_acq,Tema) \n \n#Earn \n \ns.mat_earn <- t(data.matrix(mat[[2]]$mat)) \ns.df_earn <- as.data.frame(s.mat_earn, stringsAsFactors = FALSE) \nTema <- rep(mat[[2]]$name, nrow(s.df_earn)) \ns.df_earn<-cbind(s.df_earn,Tema) \n \n#Conectar las 2 matrices \n \npila <-rbind.fill(s.df_acq, s.df_earn) \npila[is.na(pila)] <- 0 \n \n#Función knn paquete class \n \nset.seed(111) \nentrena.idx <- sample(nrow(pila), ceiling(nrow(pila) * 0.7)) \ntest.idx <- (1:nrow(pila))[-entrena.idx] \ntema <- pila[, "Tema"] \npila.nl <- pila[, !colnames(pila) %in% "Tema"] \nknn.pred <- knn(pila.nl[entrena.idx, ], pila.nl[test.idx, ], tema[entrena.idx])'}
+                            {'#Diferentes valores de K \n \n#K=2 \n \nclus_kmeans=clus \nNumCluster=2 \nset.seed(123) \nModelo=kmeans(clus_norm,NumCluster) \nclus_kmeans$clusterKmeans= Modelo$cluster'}
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@ function Project_2() {
                     </p>
                     <div id="panelsStayOpen-collapseOne_5" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                            {'#Validación knn - class \n \nknn.pred <- knn(pila.nl[entrena.idx, ], pila.nl[test.idx, ], tema[entrena.idx]) \nconf.mat <- table("Predicción" = knn.pred,"Real" = tema[test.idx])'}
+                            {'#K=3 \n \nclus_kmeans=clus \nNumCluster=3 \nset.seed(123) \nModelo=kmeans(clus_norm,NumCluster) \nclus_kmeans$clusterKmeans= Modelo$cluster'}
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@ function Project_2() {
                     </p>
                     <div id="panelsStayOpen-collapseOne_6" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                            {'#Función train paquete caret \n \ndat_train<-cbind(pila.nl[entrena.idx, ],tema[entrena.idx]) \nknnGrid <-  expand.grid(k = c(1:3)) \nknn.caret <- train(`tema[entrena.idx]`~., data=dat_train,method = "knn",tuneGrid = knnGrid)'}
+                            {'#K=4 \n \nclus_kmeans=clus \nNumCluster=4 \nset.seed(123) \nModelo=kmeans(clus_norm,NumCluster) \nclus_kmeans$clusterKmeans= Modelo$cluster'}
                         </div>
                     </div>
                 </div>
@@ -168,7 +168,7 @@ function Project_2() {
                     </p>
                     <div id="panelsStayOpen-collapseOne_7" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                            {'#Función train paquete caret \n \ndat_train<-cbind(pila.nl[entrena.idx, ],tema[entrena.idx]) \nknnGrid <-  expand.grid(k = c(1:3)) \nknn.caret <- train(`tema[entrena.idx]`~., data=dat_train,method = "knn",tuneGrid = knnGrid)'}
+                            {'#K=5 \n \nclus_kmeans=clus \nNumCluster=5 \nset.seed(123) \nModelo=kmeans(clus_norm,NumCluster) \nclus_kmeans$clusterKmeans= Modelo$cluster'}
                         </div>
                     </div>
                 </div>
@@ -190,7 +190,7 @@ function Project_2() {
                     </p>
                     <div id="panelsStayOpen-collapseOne_8" class="accordion-collapse collapse">
                         <div class="accordion-body">
-                            {'#Función train paquete caret \n \ndat_train<-cbind(pila.nl[entrena.idx, ],tema[entrena.idx]) \nknnGrid <-  expand.grid(k = c(1:3)) \nknn.caret <- train(`tema[entrena.idx]`~., data=dat_train,method = "knn",tuneGrid = knnGrid)'}
+                            {'#K=5 \n \nclus_kmeans=clus \nNumCluster=5 \nset.seed(123) \nModelo=kmeans(clus_norm,NumCluster) \nclus_kmeans$clusterKmeans= Modelo$cluster'}
                         </div>
                     </div>
                 </div>
