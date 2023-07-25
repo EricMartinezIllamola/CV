@@ -1,0 +1,233 @@
+* {
+    font-family: Garamond;
+}
+
+body {
+    margin: 0px;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    overflow: hidden;
+}
+
+#Project_1, #Project_2 {
+    width: 100%;
+    min-height: 89vh;
+    height: auto;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    padding-left: 10vh;
+    padding-right: 5vh;
+}
+
+.accordion {
+    margin-top: 30px;
+}
+
+.accordion-body{
+    white-space: pre-line;
+}
+
+section .text_png {
+    margin-top: 30px;
+}
+
+section .text_png p {
+    white-space: pre-line;
+    margin-bottom: 0;
+}
+
+section .text_png img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 750px;
+    height: 360px;
+}
+
+section .text_png img.img_P1_1 {
+    width: 200px;
+    height: 300px;
+    background-image: url(../img_1/num_docs_tematica_table.PNG);
+} 
+
+section .text_png .img_P1_2 {
+    width: 500px;
+    height: 300px;
+    background-image: url(../img_1/num_docs_tematica.png);
+}
+
+section .text_png img.img_P1_3 {
+    width: 450px;
+    height: 390px;
+    background-image: url(../img_1/mining_inspect_acq.PNG);
+} 
+
+section .text_png img.img_P1_4 {
+    width: 470px;
+    height: 390px;
+    background-image: url(../img_1/mining_inspect_earn.PNG);
+} 
+
+section .text_png img.img_P1_5 {
+    width: 550px;
+    height: 230px;
+    background-image: url(../img_1/mining_head_fdata.PNG);
+} 
+
+section .text_png img.img_P1_6 {
+    width: 840px;
+    height: 390px;
+    background-image: url(../img_1/grafico_frecuencias.png);
+} 
+
+section .text_png img.img_P1_7 {
+    background-image: url(../img_1/word_cloud_acq.png);
+} 
+
+section .text_png img.img_P1_8 {
+    background-image: url(../img_1/word_cloud_earn.png);
+} 
+
+section .text_png img.img_P1_9 {
+    background-image: url(../img_1/word_cloud_total.png);
+} 
+
+section .text_png img.img_P1_10 {
+    width: 300px;
+    height: 60px;
+    background-image: url(../img_1/mining_knn_pred.PNG);
+} 
+
+section .text_png img.img_P1_11 {
+    width: 250px;
+    height: 120px;
+    background-image: url(../img_1/mining_confmat_knn.PNG);
+} 
+
+section .text_png img.img_P1_12 {
+    width: 300px;
+    height: 40px;
+    background-image: url(../img_1/mining_sensitivity.PNG);
+} 
+
+section .text_png img.img_P1_13 {
+    width: 300px;
+    height: 40px;
+    background-image: url(../img_1/mining_specificity.PNG);
+} 
+
+section .text_png img.img_P1_14 {
+    width: 630px;
+    height: 400px;
+    background-image: url(../img_1/mining_knn_caret.PNG);
+} 
+
+section .text_png img.img_P1_15 {
+    width: 420px;
+    height: 630px;
+    background-image: url(../img_1/mining_confmat_caret.PNG);
+} 
+
+section .text_png img.img_P2_1 {
+    width: 600px;
+    height: 220px;
+    background-image: url(../img_2/countries_head_total.PNG);
+} 
+
+section .text_png .img_P2_2 {
+    width: 400px;
+    height: 230px;
+    background-image: url(../img_2/countries_head_5.PNG);
+}
+
+section .text_png .img_P2_3 {
+    width: 580px;
+    height: 220px;
+    background-image: url(../img_2/countries_sum_5.PNG);
+}
+
+section .text_png .img_P2_4 {
+    background-image: url(../img_2/country_A1.png);
+}
+
+section .text_png .img_P2_5 {
+    height: 300px;
+    background-image: url(../img_2/country_B1.png);
+}
+
+section .text_png .img_P2_6 {
+    height: 300px;
+    background-image: url(../img_2/country_C1.png);
+}
+
+section .text_png .img_P2_7 {
+    height: 300px;
+    background-image: url(../img_2/country_between.png);
+}
+
+section .text_png .img_P2_8, section .text_png .img_P2_19 {
+    width: 610px;
+    height: 200px;
+    background-image: url(../img_2/countries_agg_k5.PNG);
+}
+
+section .text_png .img_P2_9, section .text_png .img_P2_20 {
+    width: 200px;
+    height: 90px;
+    background-image: url(../img_2/countries_num_k5.PNG);
+}
+
+section .text_png .img_P2_10 {
+    background-image: url(../img_2/country_A2.png);
+}
+
+section .text_png .img_P2_11 {
+    background-image: url(../img_2/country_B2.png);
+}
+
+section .text_png .img_P2_12 {
+    background-image: url(../img_2/country_C2.png);
+}
+
+section .text_png .img_P2_13 {
+    width: 560px;
+    height: 110px;
+    background-image: url(../img_2/countries_agg_k2.PNG);
+}
+
+section .text_png .img_P2_14 {
+    width: 140px;
+    height: 90px;
+    background-image: url(../img_2/countries_num_k2.PNG);
+}
+
+section .text_png .img_P2_15 {
+    width: 560px;
+    height: 150px;
+    background-image: url(../img_2/countries_agg_k3.PNG);
+}
+
+section .text_png .img_P2_16 {
+    width: 150px;
+    height: 90px;
+    background-image: url(../img_2/countries_num_k3.PNG);
+}
+
+section .text_png .img_P2_17 {
+    width: 560px;
+    height: 190px;
+    background-image: url(../img_2/countries_agg_k4.PNG);
+}
+
+section .text_png .img_P2_18 {
+    width: 180px;
+    height: 100px;
+    background-image: url(../img_2/countries_num_k4.PNG);
+}
+
+section .text_png .img_P2_21 {
+    background-image: url(../img_2/country_silhouette.png);
+}
