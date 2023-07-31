@@ -652,8 +652,35 @@ section {
 }
 
 #SoftSkills {
-    background: linear-gradient(120deg, yellow 0, green 60%, transparent 98%);
+    background-color: white;
+    min-height: 100vh;
+    height: auto;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    padding-left: 5%;
 }
+
+#SoftSkills h1 {
+    color: black;
+}
+
+#SoftSkills .accordion{
+    width: 70%;
+}
+
+#SoftSkills .accordion .accordion-item {
+    border: 1px solid black;
+}
+
+#SoftSkills .accordion .accordion-item .accordion-header .accordion-button {
+    color: black;
+    background-color: orange;
+    box-shadow: none ;
+}
+
+/* #SoftSkills .accordion .accordion-item .accordion-header .accordion-button::after {
+    background-image: ;
+} */
 
 #Contactar {
     min-height: 90vh;
