@@ -1,17 +1,20 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 function Projects() {
+    const [t, i18n] = useTranslation("index");
+
     return (
         <section id="Experiencia">
-            {/* <h1>Experiencia</h1> */}
+            <h1>{t("projects.h1")}</h1>
             <div className="projects_container container-fluid">
                 <div className='row'>
                     <div className='col'>
                         <div className="project_card">
                             <div className="project_img"></div>
                             <div className="project_content">
-                                <h2>Project 1</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, maxime!</p>
+                                <h2>{t("projects.t1")}</h2>
+                                <p>{t("projects.p1")}</p>
                             </div>
                         </div>
                     </div>
@@ -19,8 +22,8 @@ function Projects() {
                         <div className="project_card">
                             <div className="project_img"></div>
                             <div className="project_content">
-                                <h2>Project 1</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, maxime!</p>
+                                <h2>{t("projects.t2")}</h2>
+                                <p>{t("projects.p2")}</p>
                             </div>
                         </div>
                     </div>

@@ -1,8 +1,11 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 function About() {
     const [open_perfil_card, setOpen_perfil_card] = React.useState(false);
     const [open_perfil_card_2, setOpen_perfil_card_2] = React.useState(false);
+
+    const [t, i18n] = useTranslation("index");
 
     return (
         <section id="Objetivos">
@@ -10,31 +13,29 @@ function About() {
                 <div className="perfil_card" onClick={()=>{setOpen_perfil_card(true)}}>
                     <div className="foto_perfil"></div>
                     <ul className="ul_perfil_1">
-                        <li>Graduado en Química</li>
-                        <li>Posgrado en Inteligencia de Negocio y Análisis de Datos</li>
+                        <li>{t("about.front.t1")}</li>
+                        <li>{t("about.front.t2")}</li>
                     </ul>
                     <ul className="ul_perfil_2">
-                        <li>Apasionado de los datos, amante del queso y amigo de los perros. Junior Data Scientist,
-                            actualmente viviendo en La Garriga, Barcelona.</li>
+                        <li>{t("about.front.p1")}</li>
                     </ul>
                 </div>
                 <div className="card_backside" onClick={()=>{setOpen_perfil_card_2(true)}}>
                     <ul>
-                        <li className="quim">Grado de Química - Universitat de Barcelona (UB)</li>
-                        <li>Posgrado de Inteligencia de Negocio y Análisis de
-                            Datos - Universitat Oberta de Catalunya (UOC)
+                        <li className="quim">{t("about.back.l1")}</li>
+                        <li>{t("about.back.l2")}
                             <ul>
-                                <li>Especialización de Analítica de Datos - 1er Semestre</li>
+                                <li>{t("about.back.l2_1")}</li>
                                 <ul>
-                                    <li>Fundamentos de Inteligencia de Negocio</li>
-                                    <li>Fundamentos de Data Science</li>
-                                    <li>Fundamentos del Big Data</li>
+                                    <li>{t("about.back.l2_1_1")}</li>
+                                    <li>{t("about.back.l2_1_2")}</li>
+                                    <li>{t("about.back.l2_1_3")}</li>
                                 </ul>
-                                <li>Especialización de Gestión de Datos - 2nd Semestre</li>
+                                <li>{t("about.back.l2_2")}</li>
                                 <ul>
-                                    <li>Bases de Datos Analíticas</li>
-                                    <li>Bases de Datos NoSQL</li>
-                                    <li>Data Governance</li>
+                                    <li>{t("about.back.l2_2_1")}</li>
+                                    <li>{t("about.back.l2_2_2")}</li>
+                                    <li>{t("about.back.l2_2_3")}</li>
                                 </ul>
                             </ul>
                         </li>
@@ -44,16 +45,14 @@ function About() {
             <div className={open_perfil_card ? "card_page card_page_click" : "card_page"}>
                 <div className="close_card" onClick={()=>{setOpen_perfil_card(false); setOpen_perfil_card_2(false)}}><span className="material-symbols-outlined span_menu">Close</span></div>
                 <ul>
-                    <li>Programa Formativo de Competencias tecnológicas
-                        en Inteligencia Artificial & Machine Learning con
-                        Python (+500 horas) - Fundació Esplai</li>
+                    <li>{t("about.card.l3")}</li>
                     <ul className='ul_page2'>
-                        <li>Introducción a la programación (HTML, CSS, JavaScript...)</li>
-                        <li>Inteligencia Artificial & Machine Learning con Python</li>
+                        <li>{t("about.card.l3_1")}</li>
+                        <li>{t("about.card.l3_2")}</li>
                     </ul>
                 </ul>
                 <div className="iconos_box">
-                    <p>eric77711@gmail.com</p>
+                    <p>{t("about.card.email")}</p>
                     <a href="http://www.google.es" target="_blank" className="iconos icono_lin"></a>
                     <a href="http://www.google.es" target="_blank" className="iconos icono_git"></a>
                 </div>

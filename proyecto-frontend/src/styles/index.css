@@ -569,10 +569,16 @@ section {
     background-color: #16151C;
     height: auto;
     min-height: 90vh;
-    padding-top: 15vh;
+    padding-top: 11vh;
     padding-bottom: 10vh;
     overflow: visible;
     border-top: 3px dashed #16151C;
+}
+
+#Experiencia h1 {
+    color: white;
+    margin-left: 7%;
+    margin-bottom: 10vh;
 }
 
 .projects_container{
