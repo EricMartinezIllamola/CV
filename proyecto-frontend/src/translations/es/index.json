@@ -25,12 +25,12 @@
         },
         "back": {
             "l1": "Grado de Química - Universitat de Barcelona (UB)",
-            "l2": "Posgrado de Inteligencia de Negocio y Análisis de Datos - Universitat Oberta de Catalunya (UOC)",
-            "l2_1": "Especialización de Analítica de Datos - 1er Semestre",
+            "l2": "Posgrado en Inteligencia de Negocio y Análisis de Datos - Universitat Oberta de Catalunya (UOC)",
+            "l2_1": "Especialización en Analítica de Datos - 1er Semestre",
             "l2_1_1": "Fundamentos de Inteligencia de Negocio",
             "l2_1_2": "Fundamentos de Data Science",
             "l2_1_3": "Fundamentos del Big Data",
-            "l2_2": "Especialización de Gestión de Datos - 2nd Semestre",
+            "l2_2": "Especialización en Gestión de Datos - 2nd Semestre",
             "l2_2_1": "Bases de Datos Analíticas",
             "l2_2_2": "Bases de Datos NoSQL",
             "l2_2_3": "Data Governance"
