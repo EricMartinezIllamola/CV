@@ -1,3 +1,79 @@
 {
-    "hola": "hola"
+    "header": {
+        "a1": "Home",
+        "a2": "About me",
+        "a3": "Hard Skills",
+        "a4": "Projects",
+        "a4_1": "Text Mining",
+        "a4_2": "Clustering",
+        "a5": "Soft Skills",
+        "a6": "Contact",
+        "a7": "Lenguage",
+        "a7_1": "CAT",
+        "a7_2": "ES",
+        "a7_3": "EN"
+    },
+    "home": {
+        "h1": "Èric Martínez",
+        "h3": "Junior Data Scientist"
+    },
+    "about": {
+        "front": {
+            "t1": "Graduado en Química",
+            "t2": "Posgrado in Business Inteligence and Data Analytics",
+            "p1": "Apasionado de los datos, amante del queso y amigo de los perros. Junior Data Scientist, actualmente viviendo en La Garriga, Barcelona."
+        },
+        "back": {
+            "l1": "Grado de Química - Universitat de Barcelona (UB)",
+            "l2": "Posgrado in Business Inteligence and Data Analytics - Universitat Oberta de Catalunya (UOC)",
+            "l2_1": "Specialization in Data Analytics - 1st Semester",
+            "l2_1_1": "Fundamentals of Business Inteligence",
+            "l2_1_2": "Fundamentals of Data Science",
+            "l2_1_3": "Fundamentals of Big Data",
+            "l2_2": "Specialization in Data Managment - 2nd Semester",
+            "l2_2_1": "Analytical Databases",
+            "l2_2_2": "NoSQL Databases",
+            "l2_2_3": "Data Governance"
+        },
+        "card": {
+            "l3": "Programa Formativo de Competencias tecnológicas en Inteligencia Artificial & Machine Learning con Python (+500 horas) - Fundació Esplai",
+            "l3_1": "Introduction to programming (HTML, CSS, JavaScript...)",
+            "l3_2": "Artificial Inteligence & Machine Learning with Python",
+            "email": "eric77711@gmail.com"
+        }
+    },
+    "hard": {
+        "h1": "Hard Skills",
+        "t1": "Data Mining:",
+        "t2": "Data Bases:",
+        "t3": "ETL and Data Managment:",
+        "t4": "Frontend:",
+        "t5": "Big Data, Cloud and GitHub:"
+    },
+    "projects": {
+        "h1": "Projects",
+        "t1": "Text Mining",
+        "p1": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, maxime!",
+        "t2": "Clustering",
+        "p2": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, maxime!"
+    },
+    "soft": {
+        "h1": "Soft Skills",
+        "t1": "Autonomía, gestión del tiempo, tecnologías - UOC",
+        "p1_1": "La metodología de la UOC se basa en la entrega de proyectos cada X tiempo. Los proyectos demandan tiempo y hay que organizarse para cumplir con las fechas de entrega. Además se adquieren conocimientos sobre tecnologias muy variadas.",
+        "p1_2": "En resumen, tras un año en la UOC, he adquirido ciertas habilidades, que aunque no son habilidades técnicas, pueden resultar de mucha utilidad: organización, gestión del tiempo, perseverancia, autonomía...",
+        "t2": "Metodología agile, Scrum y trabajo en equipo - Bootcamp Fundació Esplai",
+        "p2": "El proyecto final se hace en grupo (3 personas), durante unos 20 dias, utilizando Scrum: scrum master, daily meeting... "
+    },
+    "contact": {
+        "h1": "Contact",
+        "i1": "Name",
+        "i2": "Email",
+        "i3": "Motive",
+        "i4": "Mensaje",
+        "btn": "Enviar"
+    },
+    "footer": {
+        "p1": "CV Web"
+    }
 }
