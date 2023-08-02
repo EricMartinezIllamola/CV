@@ -4,8 +4,9 @@ import { useTranslation } from 'react-i18next';
 function Header() {
     const [t, i18n] = useTranslation("index");
 
-    const handleChangeLng = () => {
-        i18n.changeLanguage(lng)
+    const handleChangeLng = (lng) => {
+        i18n.changeLanguage(lng);
+        localStorage.setItem("lng", lng);
     }
 
     const [open_menu, setOpen_menu] = React.useState(false);

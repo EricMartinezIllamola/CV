@@ -10,8 +10,8 @@ function Projects() {
             <div className="projects_container container-fluid">
                 <div className='row'>
                     <div className='col'>
-                        <div className="project_card">
-                            <div className="project_img"></div>
+                        <div className="project_card" onClick={event =>  window.location.href='/Project_1'}>
+                            <div className="project_img project_img_1"></div>
                             <div className="project_content">
                                 <h2>{t("projects.t1")}</h2>
                                 <p>{t("projects.p1")}</p>
@@ -19,8 +19,8 @@ function Projects() {
                         </div>
                     </div>
                     <div className='col'>
-                        <div className="project_card">
-                            <div className="project_img"></div>
+                        <div className="project_card" onClick={event =>  window.location.href='/Project_2'}>
+                            <div className="project_img project_img_2"></div>
                             <div className="project_content">
                                 <h2>{t("projects.t2")}</h2>
                                 <p>{t("projects.p2")}</p>
