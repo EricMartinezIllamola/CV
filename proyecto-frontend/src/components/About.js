@@ -7,6 +7,18 @@ function About() {
 
     const [t, i18n] = useTranslation("index");
 
+    const cv_download = () => {
+        fetch('CV_Èric Martínez.pdf').then(response => {
+            response.blob().then(blob => {
+                const fileURL = window.URL.createObjectURL(blob);
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'CV_Èric Martínez.pdf';
+                alink.click();
+            })
+        })
+    }
+
     return (
         <section id="Objetivos">
             <div className={`total_card ${open_perfil_card ? "total_card_click" : ""} ${open_perfil_card_2 ? "total_card_disappear" : ""}`}>
@@ -51,6 +63,7 @@ function About() {
                         <li>{t("about.card.l3_2")}</li>
                     </ul>
                 </ul>
+                <button onClick={cv_download}>Descargar CV</button>
                 <div className="iconos_box">
                     <p>{t("about.card.email")}</p>
                     <a href="http://www.google.es" target="_blank" className="iconos icono_lin"></a>
