@@ -56,7 +56,7 @@ body {
 
 header {
     width: 100%;
-    height: 9vh;
+    height: 10vh;
     background-color: var(--no_black);
     position: fixed;
     top: 0px;
@@ -79,12 +79,14 @@ header ul li a, header ul li button {
     align-items: center;
     justify-content: center;
     color: var(--white);
-    font-size: 13px;
-    text-transform: uppercase;
+    font-size: 16px;
+    /* text-transform: uppercase; */
+    /* font-weight: 600; */
     height: 3em;
     width: 100%;
     text-decoration: none;
     padding: 0% 0px;
+    margin: 0;
     position: relative;
     background: none;
     border: none;
@@ -173,6 +175,11 @@ section {
     height: 100vh;
     padding: 0;
     overflow: hidden;
+}
+
+section h1 {
+    color: var(--orange);
+    font-weight: 700;
 }
 
 #home {
@@ -472,7 +479,7 @@ section {
     font-size: 20px;
     margin-bottom: 10px;
     background: linear-gradient(90deg, var(--no_black) 65%,  var(--orange) 100%);
-    color: var(--orange);
+    color: var(--orange_2);
 }
 
 .img {
@@ -592,9 +599,9 @@ section {
 }
 
 #Experiencia h1 {
-    color: var(--white);
     margin-left: 7%;
     margin-bottom: 10vh;
+    color: var(--orange_2)
 }
 
 .projects_container{
@@ -694,10 +701,6 @@ section {
     padding-left: 5%;
 }
 
-#SoftSkills h1 {
-    color: var(--black);
-}
-
 #SoftSkills .accordion{
     width: 75%;
 }
@@ -731,7 +734,7 @@ section {
 
 .form_box h1 {
     margin-top: 1vh;
-    color: var(--white);
+    color: var(--orange)
 }
 
 #form_box {
@@ -799,10 +802,6 @@ form {
     padding-top: 15px;
     cursor: auto;
     transition-duration: 500ms;
-}
-
-#enviar:hover {
-    border: var(--white) 2px solid;
 }
 
 .input_box input:focus+label,

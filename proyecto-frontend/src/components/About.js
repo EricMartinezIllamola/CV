@@ -63,11 +63,11 @@ function About() {
                         <li>{t("about.card.l3_2")}</li>
                     </ul>
                 </ul>
-                <button onClick={cv_download}>Descargar CV</button>
                 <div className="iconos_box">
-                    <p>{t("about.card.email")}</p>
-                    <a href="http://www.google.es" target="_blank" className="iconos icono_lin"></a>
-                    <a href="http://www.google.es" target="_blank" className="iconos icono_git"></a>
+                    {/* <p>{t("about.card.email")}</p> */}
+                    <button onClick={cv_download}>Descargar CV</button>
+                    <a rel='http://www.google.es' target="_blank" className="iconos icono_lin"></a>
+                    <a rel="http://www.google.es" target="_blank" className="iconos icono_git"></a>
                 </div>
             </div>
         </section>

@@ -9,9 +9,9 @@
         "a5": "Soft Skills",
         "a6": "Contact",
         "a7": "Lenguage",
-        "a7_1": "CA",
-        "a7_2": "ES",
-        "a7_3": "EN"
+        "a7_1": "Català",
+        "a7_2": "Español",
+        "a7_3": "English"
     },
     "home": {
         "h1": "Èric Martínez",
@@ -45,7 +45,7 @@
     "hard": {
         "h1": "Hard Skills",
         "t1": "Data Mining:",
-        "t2": "Data Bases:",
+        "t2": "Databases:",
         "t3": "ETL and Data Managment:",
         "t4": "Frontend:",
         "t5": "Big Data, Cloud and GitHub:"
@@ -69,9 +69,9 @@
         "h1": "Contact",
         "i1": "Name",
         "i2": "Email",
-        "i3": "Motive",
-        "i4": "Mensaje",
-        "btn": "Enviar"
+        "i3": "Subject",
+        "i4": "Message",
+        "btn": "Submit"
     },
     "footer": {
         "p1": "CV Web"
