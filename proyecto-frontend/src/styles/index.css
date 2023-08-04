@@ -333,6 +333,7 @@ section h1 {
 .ul_perfil_2 {
     list-style-type: none;
     position: absolute;
+    white-space: pre-line;
 }
 
 .ul_perfil_1 {
@@ -429,12 +430,29 @@ section h1 {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
-.iconos_box p {
-    margin-top: 10px;
+.iconos_box button {
+    width: 140px;
+    height: 45px;
+    font-weight: 600;
+    border: 1px solid var(--orange);
+    background-color: var(--no_black);
+    color: var(--white);
+    transition: 250ms;
 }
+
+.iconos_box button:hover {
+    border: var(--white);
+    background-color: var(--orange);
+    color: var(--black);
+}
+
+/* .iconos_box p {
+    margin-top: 10px;
+} */
 
 .iconos {
     height: 50px;

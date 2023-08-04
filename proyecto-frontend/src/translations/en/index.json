@@ -19,13 +19,13 @@
     },
     "about": {
         "front": {
-            "t1": "Graduado en Química",
-            "t2": "Posgrado in Business Inteligence and Data Analytics",
-            "p1": "Apasionado de los datos, amante del queso y amigo de los perros. Junior Data Scientist, actualmente viviendo en La Garriga, Barcelona."
+            "t1": "Bachelor's Degree in Chemistry",
+            "t2": "Postgraduate degree in Business Inteligence and Data Analytics",
+            "p1": "Data, cheese and dogs lover. \nJunior Data Scientist, currently living in La Garriga, Barcelona."
         },
         "back": {
-            "l1": "Grado de Química - Universitat de Barcelona (UB)",
-            "l2": "Posgrado in Business Inteligence and Data Analytics - Universitat Oberta de Catalunya (UOC)",
+            "l1": "Bachelor's Degree in Chemistry - Universitat de Barcelona (UB)",
+            "l2": "Postgraduate degree in Business Inteligence and Data Analytics - Universitat Oberta de Catalunya (UOC)",
             "l2_1": "Specialization in Data Analytics - 1st Semester",
             "l2_1_1": "Fundamentals of Business Inteligence",
             "l2_1_2": "Fundamentals of Data Science",
@@ -36,7 +36,7 @@
             "l2_2_3": "Data Governance"
         },
         "card": {
-            "l3": "Programa Formativo de Competencias tecnológicas en Inteligencia Artificial & Machine Learning con Python (+500 horas) - Fundació Esplai",
+            "l3": "Technological Competences Training Program in Artificial Intelligence & Machine Learning with Python (+500 hours) - Fundació Esplai",
             "l3_1": "Introduction to programming (HTML, CSS, JavaScript...)",
             "l3_2": "Artificial Inteligence & Machine Learning with Python",
             "email": "eric77711@gmail.com"

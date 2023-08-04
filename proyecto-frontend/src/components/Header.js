@@ -1,5 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Header() {
     const [t, i18n] = useTranslation("index");
@@ -14,20 +16,20 @@ function Header() {
     return (
         <header id="header">
             <ul className={open_menu ? "mostrar_menu" : ""} >
-                <li className="first_li"><a href="/#home">{t("header.a1")}</a></li>
-                <li><a href="/#Objetivos">{t("header.a2")}</a></li>
-                <li><a href="/#expand_HardSkills">{t("header.a3")}</a></li>
-                <li className="dropdown"><a href="/#Experiencia">{t("header.a4")} <span className="material-symbols-outlined">expand_more</span></a>
+                <li className="first_li"><Link to="/#home">{t("header.a1")}</Link></li>
+                <li><Link to="/#Objetivos">{t("header.a2")}</Link></li>
+                <li><Link to="/#expand_HardSkills">{t("header.a3")}</Link></li>
+                <li className="dropdown"><Link to="/#Experiencia">{t("header.a4")} <span className="material-symbols-outlined">expand_more</span></Link>
                     <ul className="content_dropdown">
-                        <li><a href="/Project_1">{t("header.a4_1")}</a></li>
-                        <li><a href="/Project_2">{t("header.a4_2")}</a></li>
+                        <li><Link to="/Project_1#Project_1">{t("header.a4_1")}</Link></li>
+                        <li><Link to="/Project_2#Project_2">{t("header.a4_2")}</Link></li>
                         {/* <li><a href="#">PROJECT 3</a></li>
                         <li><a href="#">PROJECT 4</a></li>
                         <li><a href="#">PROJECT 5</a></li> */}
                     </ul>
                 </li>
-                <li><a href="#SoftSkills">{t("header.a5")}</a></li>
-                <li><a href="#Contactar">{t("header.a6")}</a></li>
+                <li><Link to="/#SoftSkills">{t("header.a5")}</Link></li>
+                <li><Link to="/#Contactar">{t("header.a6")}</Link></li>
                 <li className="dropdown last_li"><button className='idioma'>{t("header.a7")} <span className="material-symbols-outlined">expand_more</span></button>
                     <ul className="content_dropdown">
                         <li><button onClick={()=>handleChangeLng("ca")}>{t("header.a7_1")}</button></li>

@@ -66,8 +66,8 @@ function About() {
                 <div className="iconos_box">
                     {/* <p>{t("about.card.email")}</p> */}
                     <button onClick={cv_download}>Descargar CV</button>
-                    <a rel='http://www.google.es' target="_blank" className="iconos icono_lin"></a>
-                    <a rel="http://www.google.es" target="_blank" className="iconos icono_git"></a>
+                    <a href='http://www.google.es' target="_blank" className="iconos icono_lin"></a>
+                    <a href="http://www.google.es" target="_blank" className="iconos icono_git"></a>
                 </div>
             </div>
         </section>

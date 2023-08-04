@@ -3,6 +3,7 @@ import React from 'react';
 function Project_1() {
     return (
         <section id="Project_1">
+            <h1></h1>
             <div class="accordion" id="accordionPanelsStayOpen_1">
                 <div class="accordion-item">
                     <p class="accordion-header">
