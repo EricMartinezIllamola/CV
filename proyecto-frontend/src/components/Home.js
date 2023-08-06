@@ -6,7 +6,8 @@ import { useTranslation } from 'react-i18next';
 function Home() {
     let navigate = useNavigate();
     const start_btn = () => {
-        let path = '/CV/#Objetivos'; 
+        // window.location.href = '/CV/#Objetivos';
+        let path = '/#Objetivos'; 
         navigate(path);
     };
 

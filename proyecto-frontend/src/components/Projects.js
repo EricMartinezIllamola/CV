@@ -7,11 +7,11 @@ function Projects() {
 
     let navigate = useNavigate();
     const nav_project_1 = () => {
-        let path = '/CV/Project_1'; 
+        let path = '/CV/Project_1#Project_1'; 
         navigate(path);
     };
     const nav_project_2 = () => {
-        let path = '/CV/Project_2'; 
+        let path = '/CV/Project_2#Project_2'; 
         navigate(path);
     };
 
