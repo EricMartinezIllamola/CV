@@ -20,27 +20,27 @@ function Project_2() {
             </div>
             <div className='text_png'>
                 <p>head(countries)</p>
-                <img className='img_P2_1'></img>
+                <img className='img_P2_1' src={require('../img_2/countries_head_total.PNG')}></img>
             </div>
             <div className='text_png'>
                 <p>{'clus_title\<\-countries[,c("country", "child_mort","life_expec","health","gdpp","income")] \n knitr::kable(head(clus_title), "simple"'})</p>
-                <img className='img_P2_2'></img>
+                <img className='img_P2_2' src={require('../img_2/countries_head_5.PNG')}></img>
             </div>
             <div className='text_png'>
                 <p>{'clus<-countries[,c("child_mort","life_expec","health","gdpp","income")] \n summary(clus)'}</p>
-                <img className='img_P2_3'></img>
+                <img className='img_P2_3' src={require('../img_2/countries_sum_5.PNG')}></img>
             </div>
             <div className='text_png'>
                 <p>{'plot(countries[c("life_expec","health")], xlab="Esperanza de vida", ylab="Inversión en salud (%)") title(main="Nube de puntos A1", col.main="blue", font.main=1)'}</p>
-                <img className='img_P2_4'></img>
+                <img className='img_P2_4' src={require('../img_2/country_A1.png')}></img>
             </div>
             <div className='text_png'>
                 <p>{'plot(countries[c("life_expec","gdpp")], xlab="Esperanza de vida", ylab="GDDP") title(main="Nube de puntos B1", col.main="blue", font.main=1)'}</p>
-                <img className='img_P2_5'></img>
+                <img className='img_P2_5' src={require('../img_2/country_B1.png')}></img>
             </div>
             <div className='text_png'>
                 <p>{'plot(countries[c("health","gdpp")], xlab="Inversión en salud (%)", ylab="GDPP") title(main="Nube de puntos C1", col.main="blue", font.main=1)'}</p>
-                <img className='img_P2_6'></img>
+                <img className='img_P2_6' src={require('../img_2/country_C1.png')}></img>
             </div>
             <div class="accordion" id="accordionPanelsStayOpen_2">
                 <div class="accordion-item">
@@ -58,7 +58,7 @@ function Project_2() {
             </div>
             <div className='text_png'>
                 <p>{'plot(1:10, bss, type="l", xlab="Número de grupos",ylab="Sumas de cuadrados entre grupos")'}</p>
-                <img className='img_P2_7'></img>
+                <img className='img_P2_7' src={require('../img_2/country_between.png')}></img>
             </div>
             <div class="accordion" id="accordionPanelsStayOpen_3">
                 <div class="accordion-item">
@@ -76,23 +76,23 @@ function Project_2() {
             </div>
             <div className='text_png'>
                 <p>{'knitr::kable(aggregate(.~clusterKmeans,FUN=mean, data=clus_kmeans), "simple")'}</p>
-                <img className='img_P2_8'></img>
+                <img className='img_P2_8' src={require('../img_2/countries_agg_k5.PNG')}></img>
             </div>
             <div className='text_png'>
                 <p>{'knitr::kable(table(clus_kmeans$clusterKmeans), "simple")'}</p>
-                <img className='img_P2_9'></img>
+                <img className='img_P2_9' src={require('../img_2/countries_num_k5.PNG')}></img>
             </div>
             <div className='text_png'>
                 <p>{'plot(clus_kmeans[c("life_expec","health")], xlab="Esperanza de vida", ylab="Inversión en salud (%)",col=clus_kmeans$clusterKmeans) title(main="Nube de puntos A2", col.main="blue", font.main=1)'}</p>
-                <img className='img_P2_10'></img>
+                <img className='img_P2_10' src={require('../img_2/country_A2.png')}></img>
             </div>
             <div className='text_png'>
                 <p>{'plot(clus_kmeans[c("life_expec","gdpp")], xlab="Esperanza de vida", ylab="GDDP",col=clus_kmeans$clusterKmeans) title(main="Nube de puntos B2", col.main="blue", font.main=1)'}</p>
-                <img className='img_P2_11'></img>
+                <img className='img_P2_11' src={require('../img_2/country_B2.png')}></img>
             </div>
             <div className='text_png'>
                 <p>{'plot(clus_kmeans[c("health","gdpp")], xlab="Inversión en salud (%)", ylab="GDPP",col=clus_kmeans$clusterKmeans) title(main="Nube de puntos C2", col.main="blue", font.main=1)'}</p>
-                <img className='img_P2_12'></img>
+                <img className='img_P2_12' src={require('../img_2/country_C2.png')}></img>
             </div>
             <div class="accordion" id="accordionPanelsStayOpen_4">
                 <div class="accordion-item">
@@ -110,11 +110,11 @@ function Project_2() {
             </div>
             <div className='text_png'>
                 <p>{'knitr::kable(aggregate(.~clusterKmeans,FUN=mean, data=clus_kmeans), "simple")'}</p>
-                <img className='img_P2_13'></img>
+                <img className='img_P2_13' src={require('../img_2/countries_agg_k2.PNG')}></img>
             </div>
             <div className='text_png'>
                 <p>{'knitr::kable(table(clus_kmeans$clusterKmeans), "simple")'}</p>
-                <img className='img_P2_14'></img>
+                <img className='img_P2_14' src={require('../img_2/countries_num_k2.PNG')}></img>
             </div>
             <div class="accordion" id="accordionPanelsStayOpen_5">
                 <div class="accordion-item">
@@ -132,11 +132,11 @@ function Project_2() {
             </div>
             <div className='text_png'>
                 <p>{'knitr::kable(aggregate(.~clusterKmeans,FUN=mean, data=clus_kmeans), "simple")'}</p>
-                <img className='img_P2_15'></img>
+                <img className='img_P2_15' src={require('../img_2/countries_agg_k3.PNG')}></img>
             </div>
             <div className='text_png'>
                 <p>{'knitr::kable(table(clus_kmeans$clusterKmeans), "simple")'}</p>
-                <img className='img_P2_16'></img>
+                <img className='img_P2_16' src={require('../img_2/countries_num_k3.PNG')}></img>
             </div>
             <div class="accordion" id="accordionPanelsStayOpen_6">
                 <div class="accordion-item">
@@ -154,11 +154,11 @@ function Project_2() {
             </div>
             <div className='text_png'>
                 <p>{'knitr::kable(aggregate(.~clusterKmeans,FUN=mean, data=clus_kmeans), "simple")'}</p>
-                <img className='img_P2_17'></img>
+                <img className='img_P2_17' src={require('../img_2/countries_agg_k4.PNG')}></img>
             </div>
             <div className='text_png'>
                 <p>{'knitr::kable(table(clus_kmeans$clusterKmeans), "simple")'}</p>
-                <img className='img_P2_18'></img>
+                <img className='img_P2_18' src={require('../img_2/countries_num_k4.PNG')}></img>
             </div>
             <div class="accordion" id="accordionPanelsStayOpen_7">
                 <div class="accordion-item">
@@ -176,11 +176,11 @@ function Project_2() {
             </div>
             <div className='text_png'>
                 <p>{'knitr::kable(aggregate(.~clusterKmeans,FUN=mean, data=clus_kmeans), "simple")'}</p>
-                <img className='img_P2_19'></img>
+                <img className='img_P2_19' src={require('../img_2/countries_agg_k5.PNG')}></img>
             </div>
             <div className='text_png'>
                 <p>{'knitr::kable(table(clus_kmeans$clusterKmeans), "simple").png'}</p>
-                <img className='img_P2_20'></img>
+                <img className='img_P2_20' src={require('../img_2/countries_num_k5.PNG')}></img>
             </div>
             <div class="accordion" id="accordionPanelsStayOpen_8">
                 <div class="accordion-item">
@@ -198,7 +198,7 @@ function Project_2() {
             </div>
             <div className='text_png'>
                 <p>{'plot(k, type="b", avg_sil, xlab="Number of clusters", ylab="Average Silhouette Scores", frame=FALSE)'}</p>
-                <img className='img_P2_21'></img>
+                <img className='img_P2_21' src={require('../img_2/country_silhouette.png')}></img>
             </div>
         </section>)
 }

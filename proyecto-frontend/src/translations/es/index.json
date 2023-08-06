@@ -53,9 +53,9 @@
     "projects": {
         "h1": "Proyectos",
         "t1": "Text Mining",
-        "p1": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, maxime!",
+        "p1": "Data Science, Machine Learning, RStudio, Text Mining, Topic Model, K-NN",
         "t2": "Clustering",
-        "p2": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, maxime!"
+        "p2": "Data Science, Machine Learning, RStudio, Clustering, K-Means"
     },
     "soft": {
         "h1": "Soft Skills",

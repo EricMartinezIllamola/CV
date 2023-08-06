@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* 
+    ## Index
+
+    ## Global
+    ## Header
+    ## Home
+    ## AboutMe
+    ## HardSkills
+    ## Projects
+    ## SoftSkills
+    ## Contact
+    ## Animation
+    ## MediasQuery
+*/
+
+/* ## Global */
+
 .material-symbols-outlined {
     font-variation-settings:
         'FILL' 0,
@@ -37,8 +54,20 @@ body {
     flex-direction: column; */
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 0px;
+} */
+
+section {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    overflow: hidden;
+}
+
+section h1 {
+    color: var(--orange);
+    font-weight: 700;
 }
 
 /* ::-webkit-scrollbar-thumb {
@@ -54,9 +83,11 @@ body {
     background-color: var(--no_black);
 } */
 
+/* ## Header */
+
 header {
     width: 100%;
-    height: 10vh;
+    height: 4.1em;
     background-color: var(--no_black);
     position: fixed;
     top: 0px;
@@ -162,25 +193,26 @@ header ul li a:hover::after, header ul li button:hover::after {
     width: 100%;
 }
 
-/* .idioma {
-    pointer-events:none;
-} */
-
 li:hover ul {
     display: block;
 }
 
-section {
-    width: 100%;
-    height: 100vh;
-    padding: 0;
-    overflow: hidden;
+.span_menu {
+    background-color: var(--no_black);
+    color: var(--white);
+    font-size: 35px;
 }
 
-section h1 {
-    color: var(--orange);
-    font-weight: 700;
+.btn_menu {
+    background-color: var(--no_black);
+    border: 0;
+    position: fixed;
+    top: 15px;
+    right: 50px;
+    display: none;
 }
+
+/* ## Home */
 
 #home {
     background-color: var(--no_black);
@@ -266,12 +298,15 @@ section h1 {
     height: 20vh;
 }
 
+/* ## AboutMe */
+
 #Objetivos {
     position: relative;
-    /* background-image: url(../img/sunrise.jpg); */
     background-color: var(--white);
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 115vh;
+    /* background-image: url(../img/sunrise.jpg); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 .total_card {
@@ -290,10 +325,6 @@ section h1 {
     transform: perspective(1000px) translate(0%, -50%) rotateY(-180deg);
     transition: transform 1000ms;
 }
-
-/* .total_card_no_click {
-
-} */
 
 .perfil_card {
     width: 350px;
@@ -369,25 +400,6 @@ section h1 {
     margin-bottom: 10px;
 }
 
-/* .collapse_button {
-    background-color: transparent;
-    color: var(--orange_2);
-    border: none;
-    cursor: pointer;
-    text-align: left;
-}
-
-.collapse_content {
-    width: 344px;
-    display: none;
-    overflow: hidden;
-    background-color: var(--no_black);
-}
-
-.expand_content {
-    display: block;
-} */
-
 .card_page {
     width: 350px;
     height: 400px;
@@ -450,10 +462,6 @@ section h1 {
     color: var(--black);
 }
 
-/* .iconos_box p {
-    margin-top: 10px;
-} */
-
 .iconos {
     height: 50px;
     width: 50px;
@@ -474,6 +482,8 @@ section h1 {
     transform: scale(1.3);
 }
 
+/* ## HardSkills */
+
 #expand_HardSkills {
     height: 11vh;
 }
@@ -482,6 +492,11 @@ section h1 {
     height: auto;
     min-height: 90vh;
     padding-bottom: 5vh;
+}
+
+#HardSkills h1 {
+    margin-left: 60px;
+    margin-bottom: 20px;
 }
 
 .row {
@@ -500,111 +515,36 @@ section h1 {
     color: var(--orange_2);
 }
 
+.row div:not(.span) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .img {
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 6vh;
-    margin-left: 20px;
-    background-position: center;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 60px;
 }
 
-.img_A1 {
-    background-image: url(../img/powerbi.png);
+.img_B1, .img_B2, .img_B3 {
+    max-height: 75px;
 }
 
-.img_A2 {
-    background-image: url(../img/machinelearning.webp);
+.img_A, .img_C, .img_D {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.img_A3 {
-    background-image: url(../img/python.png);
+.img_E1, .img_E2 {
+    max-height: 100px;
 }
 
-.img_A4 {
-    background-image: url(../img/rstudio.png);
+.img_D {
+    max-height: 67px;
 }
 
-.img_A5 {
-    background-image: url(../img/visualstudio.png);
-    height: 30px;
-}
-
-.img_B1 {
-    background-image: url(../img/sqlserver.png);
-}
-
-.img_B2 {
-    background-image: url(../img/mysql.png);
-}
-
-.img_B3 {
-    background-image: url(../img/mongodb.png);
-}
-
-.img_B4 {
-    background-image: url(../img/neo4j.png);
-}
-
-.img_C1 {
-    background-image: url(../img/pentaho.png);
-}
-
-.img_C2 {
-    background-image: url(../img/alteryxtrifacta.png);
-}
-
-.img_C3 {
-    background-image: url(../img/collibra.png);
-    height: 40px;
-}
-
-.img_D1 {
-    background-image: url(../img/html5.png);
-}
-
-.img_D2 {
-    background-image: url(../img/css3.png);
-}
-
-.img_D3 {
-    background-image: url(../img/javascript.png);
-}
-
-.img_D4 {
-    background-image: url(../img/nodejs.png);
-}
-
-.img_D5 {
-    background-image: url(../img/bootstrap.png);
-}
-
-.img_D6 {
-    background-image: url(../img/react.png);
-}
-
-.img_D7 {
-    background-image: url(../img/jquery.png);
-}
-
-.img_E1 {
-    background-image: url(../img/apachehadoop.png);
-}
-
-.img_E2 {
-    background-image: url(../img/apachespark.png);
-}
-
-.img_E3 {
-    background-image: url(../img/aws.png);
-}
-
-.img_E4 {
-    background-image: url(../img/azure.png);
-}
-
-.img_E5 {
-    background-image: url(../img/github.png);
-}
+/* ## Projects */
 
 #Experiencia {
     background-color: var(--no_black);
@@ -623,18 +563,11 @@ section h1 {
 }
 
 .projects_container{
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     width: 100%;
     height: 100%;
     padding-left: 5vh;
     padding-right: 5vh;
     padding-bottom: 5vh;
-    /* gap: 70px; */
 }
 
 .projects_container div {
@@ -653,8 +586,7 @@ section h1 {
     width: 300px;
     overflow: hidden;
     transition-duration: 500ms;
-    /* mix-blend-mode: multiply; */
-    border: 2px dashed var(--red);
+    border: 3px dashed var(--orange);
     cursor: pointer;
 }
 
@@ -681,8 +613,6 @@ section h1 {
 
 .project_img_2 {
     background-image: url(../img_2/countries_head_5.PNG);
-    /* background-size: 1200px;
-    background-position: right; */
 }
 
 .project_content {
@@ -692,10 +622,9 @@ section h1 {
     left: 0;
     width: 100%;
     height: 60%;
-    background: linear-gradient(180deg, transparent 0%, #16151c75 10%, var(--no_black) 75%, var(--no_black) 100%);
+    background: linear-gradient(180deg, transparent 0%, var(--no_black_05) 10%, var(--no_black_08) 40%, var(--no_black) 100%);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    /* mix-blend-mode: multiply; */
     text-align: center;
     color: var(--white);
     transition-duration: 500ms;
@@ -708,7 +637,11 @@ section h1 {
 
 .project_content h2 {
     font-size: 20px;
+    color: var(--orange_2);
+    font-weight: 800;
 }
+
+/* ## SoftSkills */
 
 #SoftSkills {
     background-color: var(--white);
@@ -737,6 +670,8 @@ section h1 {
     
 } */
 
+/* ## Contact */
+
 #Contactar {
     min-height: 90vh;
     height: auto;
@@ -758,7 +693,6 @@ section h1 {
 #form_box {
     width: 400px;
     height: 450px;
-    /* min-height: 450px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -853,6 +787,8 @@ form {
     color: var(--red);
 }
 
+/* ## Footer */
+
 footer {
     height: 11vh;
     background-color: var(--no_black);
@@ -862,20 +798,19 @@ footer {
     align-items: center;
 }
 
-.span_menu {
-    background-color: var(--no_black);
-    color: var(--white);
-    font-size: 35px;
+/* ## Animation */
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
-.btn_menu {
-    background-color: var(--no_black);
-    border: 0;
-    position: fixed;
-    top: 15px;
-    right: 50px;
-    display: none;
-}
+/* ## MediasQuery */
 
 @media (max-width: 720px) {
     .btn_menu {
@@ -984,26 +919,19 @@ footer {
 }
 
 @media (max-width: 576px) {
-    #HardSkills {
-        height: auto;
-    }
-
     .img {
         margin: 0;
-        background-position: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        max-height: 70px;
+        max-width: 70%;
+    }
+
+    .img_E1 {
+        margin: 0;
     }
 
     .img:not(:last-child) {
         margin-bottom: 15px;
-    }
-}
-
-@keyframes rotate {
-    0% {
-        transform: rotate(0);
-    }
-
-    100% {
-        transform: rotate(360deg);
     }
 }
