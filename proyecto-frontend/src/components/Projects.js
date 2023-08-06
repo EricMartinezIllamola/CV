@@ -1,21 +1,9 @@
 import React from 'react';
-// import { useNavigate } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 import { useTranslation } from 'react-i18next';
 
 function Projects() {
     const [t, i18n] = useTranslation("index");
-
-    // let navigate = useNavigate();
-    const nav_project_1 = () => {
-        window.location.href = '/CV/Project_1#Project_1';
-        // let path = '/CV/Project_1#Project_1'; 
-        // navigate(path);
-    };
-    const nav_project_2 = () => {
-        window.location.href = '/CV/Project_2#Project_2';
-        // let path = '/CV/Project_2#Project_2'; 
-        // navigate(path);
-    };
 
     return (
         <section id="Experiencia">
@@ -23,22 +11,26 @@ function Projects() {
             <div className="projects_container container-fluid">
                 <div className='row'>
                     <div className='col'>
-                        <div className="project_card" onClick={nav_project_1}>
-                            <div className="project_img project_img_1"></div>
-                            <div className="project_content">
-                                <h2>{t("projects.t1")}</h2>
-                                <p>{t("projects.p1")}</p>
+                        <Link to="/CV/Project_1#Project_1">
+                            <div className="project_card">
+                                <div className="project_img project_img_1"></div>
+                                <div className="project_content">
+                                    <h2>{t("projects.t1")}</h2>
+                                    <p>{t("projects.p1")}</p>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     <div className='col'>
-                        <div className="project_card" onClick={nav_project_2}>
-                            <div className="project_img project_img_2"></div>
-                            <div className="project_content">
-                                <h2>{t("projects.t2")}</h2>
-                                <p>{t("projects.p2")}</p>
+                        <Link to="/CV/Project_2#Project_2">
+                            <div className="project_card">
+                                <div className="project_img project_img_2"></div>
+                                <div className="project_content">
+                                    <h2>{t("projects.t2")}</h2>
+                                    <p>{t("projects.p2")}</p>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     <div className='col'>
                         <div className="project_card">
