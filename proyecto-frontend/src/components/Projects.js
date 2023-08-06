@@ -1,18 +1,20 @@
 import React from 'react';
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
 function Projects() {
     const [t, i18n] = useTranslation("index");
 
-    let navigate = useNavigate();
+    // let navigate = useNavigate();
     const nav_project_1 = () => {
-        let path = '/CV/Project_1#Project_1'; 
-        navigate(path);
+        window.location.href = '/CV/Project_1#Project_1';
+        // let path = '/CV/Project_1#Project_1'; 
+        // navigate(path);
     };
     const nav_project_2 = () => {
-        let path = '/CV/Project_2#Project_2'; 
-        navigate(path);
+        window.location.href = '/CV/Project_2#Project_2';
+        // let path = '/CV/Project_2#Project_2'; 
+        // navigate(path);
     };
 
     return (
