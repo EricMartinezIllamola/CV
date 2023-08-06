@@ -6,6 +6,14 @@ function Projects() {
     const [t, i18n] = useTranslation("index");
 
     let navigate = useNavigate();
+    const nav_project_1 = () => {
+        let path = '/CV/Project_1'; 
+        navigate(path);
+    };
+    const nav_project_2 = () => {
+        let path = '/CV/Project_2'; 
+        navigate(path);
+    };
 
     return (
         <section id="Experiencia">
@@ -13,7 +21,7 @@ function Projects() {
             <div className="projects_container container-fluid">
                 <div className='row'>
                     <div className='col'>
-                        <div className="project_card" onClick={event =>  navigate('/CV/Project_1')}>
+                        <div className="project_card" onClick={nav_project_1}>
                             <div className="project_img project_img_1"></div>
                             <div className="project_content">
                                 <h2>{t("projects.t1")}</h2>
@@ -22,7 +30,7 @@ function Projects() {
                         </div>
                     </div>
                     <div className='col'>
-                        <div className="project_card" onClick={event =>  navigate('/CV/Project_2')}>
+                        <div className="project_card" onClick={nav_project_2}>
                             <div className="project_img project_img_2"></div>
                             <div className="project_content">
                                 <h2>{t("projects.t2")}</h2>
