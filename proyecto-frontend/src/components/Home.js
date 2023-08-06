@@ -7,7 +7,7 @@ function Home() {
     let navigate = useNavigate();
     const start_btn = () => {
         // window.location.href = '/CV/#Objetivos';
-        let path = '/#Objetivos'; 
+        let path = '/CV/#Objetivos'; 
         navigate(path);
     };
 
