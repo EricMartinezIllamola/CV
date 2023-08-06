@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 function Home() {
     const start_btn = () => {
-        window.location.href = '#Objetivos';
+        window.location.href = '/CV/#Objetivos';
     };
 
     const [t, i18n] = useTranslation("index");
