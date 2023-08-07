@@ -436,10 +436,13 @@ li:hover ul {
 }
 
 .iconos_box {
+    width: 100%;
+}
+
+.iconos_box_A  {
     position: absolute;
     bottom: 30px;
     right: 0px;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -790,12 +793,25 @@ form {
 /* ## Footer */
 
 footer {
-    height: 11vh;
+    height: auto;
     background-color: var(--no_black);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.iconos_box_F {
     color: var(--white);
-    padding-left: 5vh;
-    display: flex;
-    align-items: center;
+}
+
+.iconos_box_F div {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.iconos_box_F div div p {
+    margin: 0;
+    text-align: center;
 }
 
 /* ## Animation */
@@ -933,5 +949,10 @@ footer {
 
     .img:not(:last-child) {
         margin-bottom: 15px;
+    }
+    .iconos_box_F div {
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }

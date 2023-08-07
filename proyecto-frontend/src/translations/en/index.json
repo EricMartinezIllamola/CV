@@ -24,8 +24,8 @@
             "p1": "Data, cheese and dogs lover. \nJunior Data Scientist, currently living in La Garriga, Barcelona."
         },
         "back": {
-            "l1": "Bachelor's Degree in Chemistry - Universitat de Barcelona (UB)",
-            "l2": "Postgraduate degree in Business Inteligence and Data Analytics - Universitat Oberta de Catalunya (UOC)",
+            "l1": "Bachelor's Degree in Chemistry - Universitat de Barcelona (UB) - July 2021",
+            "l2": "Postgraduate degree in Business Inteligence and Data Analytics - Universitat Oberta de Catalunya (UOC) - July 2023",
             "l2_1": "Specialization in Data Analytics - 1st Semester",
             "l2_1_1": "Fundamentals of Business Inteligence",
             "l2_1_2": "Fundamentals of Data Science",
@@ -36,10 +36,10 @@
             "l2_2_3": "Data Governance"
         },
         "card": {
-            "l3": "Technological Competences Training Program in Artificial Intelligence & Machine Learning with Python (+500 hours) - Fundació Esplai",
+            "l3": "Technological Competences Training Program in Artificial Intelligence & Machine Learning with Python (+500 hours) - Fundació Esplai - September 2023",
             "l3_1": "Introduction to programming (HTML, CSS, JavaScript...)",
             "l3_2": "Artificial Inteligence & Machine Learning with Python",
-            "email": "eric77711@gmail.com"
+            "pdf": "Download PDF"
         }
     },
     "hard": {
@@ -69,7 +69,7 @@
         "h1": "Contact",
         "i1": "Name",
         "i2": "Email",
-        "i3": "Subject",
+        "i3": "About",
         "i4": "Message",
         "btn": "Submit"
     },
