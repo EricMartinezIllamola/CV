@@ -18,7 +18,6 @@ function Footer() {
 
     return (
         <footer>
-            {/* <h3>{t("footer.p1")}</h3> */}
             <div className="iconos_box iconos_box_F container-fluid">
                 <div className="row">
                     <div className="col-12 col-sm">
@@ -36,11 +35,6 @@ function Footer() {
                     <div className="col-12 col-sm">
                         <a href="https://github.com/ericmartinezillamola" target="_blank" className="iconos icono_git"></a>
                     </div>
-                    {/* <p>Èric Martínez</p>
-                    <p>eric77711@gmail.com</p>
-                    <button onClick={cv_download}>Descargar CV</button>
-                    <a href='https://www.linkedin.com/in/ericmartinezillamola' target="_blank" className="iconos icono_lin"></a>
-                    <a href="https://github.com/ericmartinezillamola" target="_blank" className="iconos icono_git"></a> */}
                 </div>
             </div>
         </footer>

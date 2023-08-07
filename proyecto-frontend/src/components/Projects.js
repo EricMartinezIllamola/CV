@@ -11,7 +11,7 @@ function Projects() {
             <div className="projects_container container-fluid">
                 <div className='row'>
                     <div className='col'>
-                        <Link to="/CV/Project_1#Project_1">
+                        <Link to="/personal-portfolio/Project_1#Project_1">
                             <div className="project_card">
                                 <div className="project_img project_img_1"></div>
                                 <div className="project_content">
@@ -22,7 +22,7 @@ function Projects() {
                         </Link>
                     </div>
                     <div className='col'>
-                        <Link to="/CV/Project_2#Project_2">
+                        <Link to="/personal-portfolio/Project_2#Project_2">
                             <div className="project_card">
                                 <div className="project_img project_img_2"></div>
                                 <div className="project_content">

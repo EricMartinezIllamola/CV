@@ -14,9 +14,9 @@ function App() {
             <BrowserRouter>
                 <Header />
                 <Routes>
-                    <Route path="/CV/" element={<Main />}></Route>
-                    <Route path="/CV/Project_1" element={<Project_1 />}></Route>
-                    <Route path="/CV/Project_2" element={<Project_2 />}></Route>
+                    <Route path="/personal-portfolio/" element={<Main />}></Route>
+                    <Route path="/personal-portfolio/Project_1" element={<Project_1 />}></Route>
+                    <Route path="/personal-portfolio/Project_2" element={<Project_2 />}></Route>
                 </Routes>
                 <Footer />
             </BrowserRouter>

@@ -4,16 +4,12 @@ import { useTranslation } from 'react-i18next';
 
 
 function Home() {
-    // const start_btn = () => {
-    //     window.location.href = '/CV/#Objetivos';
-    // };
-
     const [t, i18n] = useTranslation("index");
 
     return (
         <section id="home">
             <div className="intro_box">
-                <Link to="/CV/#Objetivos">
+                <Link to="/personal-portfolio/#Objetivos">
                     <div className="btn_start"></div>
                 </Link>
                 <div className="intro">
