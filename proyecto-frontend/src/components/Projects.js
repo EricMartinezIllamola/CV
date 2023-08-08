@@ -36,7 +36,7 @@ function Projects() {
                         <div className="project_card">
                             <div className="project_img"></div>
                             <div className="project_content">
-                                <h2>Project 1</h2>
+                                <h2>Project X</h2>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, maxime!</p>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ function Projects() {
                         <div className="project_card">
                             <div className="project_img"></div>
                             <div className="project_content">
-                                <h2>Project 1</h2>
+                                <h2>Project X</h2>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, maxime!</p>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ function Projects() {
                         <div className="project_card">
                             <div className="project_img"></div>
                             <div className="project_content">
-                                <h2>Project 1</h2>
+                                <h2>Project X</h2>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, maxime!</p>
                             </div>
                         </div>

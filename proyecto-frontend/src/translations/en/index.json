@@ -59,11 +59,10 @@
     },
     "soft": {
         "h1": "Soft Skills",
-        "t1": "Autonomía, gestión del tiempo, tecnologías - UOC",
-        "p1_1": "La metodología de la UOC se basa en la entrega de proyectos cada X tiempo. Los proyectos demandan tiempo y hay que organizarse para cumplir con las fechas de entrega. Además se adquieren conocimientos sobre tecnologias muy variadas.",
-        "p1_2": "En resumen, tras un año en la UOC, he adquirido ciertas habilidades, que aunque no son habilidades técnicas, pueden resultar de mucha utilidad: organización, gestión del tiempo, perseverancia, autonomía...",
-        "t2": "Metodología agile, Scrum y trabajo en equipo - Bootcamp Fundació Esplai",
-        "p2": "El proyecto final se hace en grupo (3 personas), durante unos 20 dias, utilizando Scrum: scrum master, daily meeting... "
+        "t1": "Time management, Perseverance and Autonomy - UOC",
+        "p1": "UOC's methodology is based on delivering projects every X time. Projects demand time and you have to be organized to meet delivery dates. In addition, knowledge of a wide variety of technologies is acquired. \n\nIn summary, after a year at the UOC, I have acquired certain skills, which although they are not technical skills, can be very useful: time management, perseverance, autonomy...",
+        "t2": "Agile methodologies, Scrum and Teamwork - Bootcamp Fundació Esplai",
+        "p2": "Agile methodologies seek to improve the performance of a work group when carrying out a project. For example, using the Scrum framework, the project is divided into small subprojects with short delivery times: the 'sprint'. The result of the subprojects is not the final product, but it must be functional. Scrum also involves the 'daily meeting', the 'scrum master', etc.\n \n In addition to improving teamwork and increasing productivity, it is possible to improve the quality of the product and the customer experience by increasing the level of adaptation to unforeseen events or unexpected changes in customer requirements.\n \n The final project of the Fundació Esplai's bootcamp, with a duration of about 3-4 weeks, has been carried out in groups of 3 people using Scrum."
     },
     "contact": {
         "h1": "Contact",

@@ -16,8 +16,7 @@ function SoftSkills() {
                     </p>
                     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                         <div class="accordion-body">
-                            <p>{t("soft.p1_1")}</p>
-                            <p>{t("soft.p1_2")}</p>
+                            <p>{t("soft.p1")}</p>
                         </div>
                     </div>
                 </div>
@@ -29,7 +28,7 @@ function SoftSkills() {
                     </p>
                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
                         <div class="accordion-body">
-                            {t("soft.p2")}
+                            <p>{t("soft.p2")}</p>
                         </div>
                     </div>
                 </div>

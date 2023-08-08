@@ -59,11 +59,10 @@
     },
     "soft": {
         "h1": "Soft Skills",
-        "t1": "Autonomía, gestión del tiempo, tecnologías - UOC",
-        "p1_1": "La metodología de la UOC se basa en la entrega de proyectos cada X tiempo. Los proyectos demandan tiempo y hay que organizarse para cumplir con las fechas de entrega. Además se adquieren conocimientos sobre tecnologias muy variadas.",
-        "p1_2": "En resumen, tras un año en la UOC, he adquirido ciertas habilidades, que aunque no son habilidades técnicas, pueden resultar de mucha utilidad: organización, gestión del tiempo, perseverancia, autonomía...",
-        "t2": "Metodología agile, Scrum y trabajo en equipo - Bootcamp Fundació Esplai",
-        "p2": "El proyecto final se hace en grupo (3 personas), durante unos 20 dias, utilizando Scrum: scrum master, daily meeting... "
+        "t1": "Gestión del tiempo, perseverancia y autonomía - UOC",
+        "p1": "La metodología de la UOC se basa en la entrega de proyectos cada X tiempo. Los proyectos demandan tiempo y hay que organizarse para cumplir con las fechas de entrega. Además se adquieren conocimientos sobre tecnologias muy variadas. \n\nEn resumen, tras un año en la UOC, he adquirido ciertas habilidades, que aunque no son habilidades técnicas, pueden resultar de mucha utilidad: organización, gestión del tiempo, perseverancia, autonomía...",
+        "t2": "Metodologías ágiles, Scrum y Trabajo en equipo - Bootcamp Fundació Esplai",
+        "p2": "Las metodologías ágiles buscan mejorar el rendimiento de un grupo de trabajo a la hora de realizar un proyecto. Por ejemplo, utilizando el marco de trabajo Scrum, el proyecto se divide en pequeños subproyectos con unos plazos de entrega cortos: los 'sprint'. El resultado de los subproyectos no es el producto final, pero debe ser funcional. Scrum también involucra los 'daily metting', el 'scrum master'... \n \nAparte de generar conciencia de equipo y aumentar la productividad, se consigue mejorar la calidad del producto y la experiencia del cliente, ya que se aumenta el nivel de adaptación a los imprevistos, a los cambios de requisitos por parte del cliente… \n \nEl proyecto final del bootcamp de Fundació Esplai, con una duración de unas 3-4 semanas, se ha realizado en grupos de 3 personas y utilizando Scrum cómo marco de trabajo."
     },
     "contact": {
         "h1": "Contactar",
