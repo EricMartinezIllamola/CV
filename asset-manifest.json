@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.e8c25dca.css",
-    "main.js": "/personal-portfolio/static/js/main.a1c66ac2.js",
+    "main.css": "/personal-portfolio/static/css/main.c37034a2.css",
+    "main.js": "/personal-portfolio/static/js/main.1775330b.js",
     "static/js/787.b7eb4d41.chunk.js": "/personal-portfolio/static/js/787.b7eb4d41.chunk.js",
     "static/media/rstudio.png": "/personal-portfolio/static/media/rstudio.0689d33971de2d55c378.png",
     "static/media/foto_perfil.jpg": "/personal-portfolio/static/media/foto_perfil.965ae3c9d20bf491546f.jpg",
@@ -12,7 +12,7 @@
     "static/media/python.png": "/personal-portfolio/static/media/python.d8b377f05522bf35de36.png",
     "static/media/apachehadoop.png": "/personal-portfolio/static/media/apachehadoop.ef822c596f945d8153d4.png",
     "static/media/mysql.png": "/personal-portfolio/static/media/mysql.c10b5bc47b47f99e1ff1.png",
-    "static/media/placeholder_project1.png": "/personal-portfolio/static/media/placeholder_project1.f0119a0bc4fb8a85b97a.png",
+    "static/media/placeholder_projectX.PNG": "/personal-portfolio/static/media/placeholder_projectX.50515ad8237c47a7a44b.PNG",
     "static/media/aws.png": "/personal-portfolio/static/media/aws.cd2d6212cc5508d01819.png",
     "static/media/sqlserver.png": "/personal-portfolio/static/media/sqlserver.279fdfa888ee8641b392.png",
     "static/media/apachespark.png": "/personal-portfolio/static/media/apachespark.924fe5ba0300124a7af4.png",
@@ -53,12 +53,12 @@
     "static/media/countries_num_k2.PNG": "/personal-portfolio/static/media/countries_num_k2.2545f3b7da238a5708fc.PNG",
     "static/media/mining_specificity.PNG": "/personal-portfolio/static/media/mining_specificity.763b2abca02f0d8d6f82.PNG",
     "static/media/mining_sensitivity.PNG": "/personal-portfolio/static/media/mining_sensitivity.50bc585ff5090fff2c3a.PNG",
-    "main.e8c25dca.css.map": "/personal-portfolio/static/css/main.e8c25dca.css.map",
-    "main.a1c66ac2.js.map": "/personal-portfolio/static/js/main.a1c66ac2.js.map",
+    "main.c37034a2.css.map": "/personal-portfolio/static/css/main.c37034a2.css.map",
+    "main.1775330b.js.map": "/personal-portfolio/static/js/main.1775330b.js.map",
     "787.b7eb4d41.chunk.js.map": "/personal-portfolio/static/js/787.b7eb4d41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8c25dca.css",
-    "static/js/main.a1c66ac2.js"
+    "static/css/main.c37034a2.css",
+    "static/js/main.1775330b.js"
   ]
 }
