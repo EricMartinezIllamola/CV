@@ -40,7 +40,6 @@
 
 section .text_png {
     margin-top: 30px;
-    /* border: 1px solid var(--red ); */
 }
 
 section .text_png p {
@@ -56,4 +55,13 @@ section .text_png img {
 #Project_1 p, #Project_2 p {
     white-space: pre-line;
     /* border: 1px solid var(--green ); */
+}
+
+@media (max-width: 720px) {
+    #Project_1, #Project_2 {
+        padding-top: 15vh;
+        padding-bottom: 5vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
+    }
 }

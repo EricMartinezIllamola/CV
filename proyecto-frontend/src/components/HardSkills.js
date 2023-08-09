@@ -31,7 +31,7 @@ function HardSkills() {
                 </div>
                 <div className="row">
                     <div className="col-12 span">{t("hard.t3")}</div>
-                    <div className="col-12 col-sm"><img className='img img_C img_C1' src={require('../img/pentaho2.PNG')}></img></div>
+                    <div className="col-12 col-sm"><img className='img img_C img_C1' src={require('../img/pentaho.PNG')}></img></div>
                     <div className="col-12 col-sm"><img className='img img_C img_C2' src={require('../img/alteryxtrifacta.png')}></img></div>
                     <div className="col-12 col-sm"><img className='img img_C img_C3' src={require('../img/collibra.png')}></img></div>
                     <div className="col"></div>

@@ -222,6 +222,7 @@ function Project_1() {
                 <p>{t("i15")}</p>
                 <img className='img_P1_15' src={require('../img_1/mining_confmat_caret.PNG')}></img>
             </div>
+            <p>{t("p6")}</p>
         </section>)
 }
 
