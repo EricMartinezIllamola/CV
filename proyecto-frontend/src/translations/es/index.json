@@ -70,9 +70,26 @@
         "i2": "Email",
         "i3": "Motivo",
         "i4": "Mensaje",
-        "btn": "Enviar"
+        "btn": "Enviar",
+        "error": {
+            "nombre": {
+                "req": "Nombre, campo obligatorio",
+                "min": "Nombre, mínimo 2 caracteres",
+                "max": "Nombre, máximo 30 caracteres"
+            },
+            "email": {
+                "req": "Email, campo obligatorio",
+                "email": "Email, formato no valido"
+            },
+            "motivo": {
+                "req": "Motivo, campo obligatorio",
+                "min": "Motivo, mínimo 2 caracteres",
+                "max": "Motivo, máximo 70 caracteres"
+            },
+            "mensaje": {
+                "req": "Mensaje, campo obligatorio"
+            }
+        }
     },
-    "footer": {
-        "p1": "CV Web"
-    }
+    "footer": {}
 }

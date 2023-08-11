@@ -5,6 +5,7 @@ import * as yup from "yup";
 import emailjs from '@emailjs/browser';
 import { useTranslation } from 'react-i18next';
 
+
 const schema = yup.object().shape({
     nombre: yup.string().min(2).max(30).required(),
     email: yup.string().email().required(),

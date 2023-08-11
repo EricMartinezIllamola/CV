@@ -70,9 +70,26 @@
         "i2": "Email",
         "i3": "About",
         "i4": "Message",
-        "btn": "Submit"
+        "btn": "Submit",
+        "error": {
+            "nombre": {
+                "req": "Name is a required field",
+                "min": "Name must be at least 2 characters",
+                "max": "Name must be at most 30 characters"
+            },
+            "email": {
+                "req": "Email is a required field",
+                "email": "Must be a valid email"
+            },
+            "motivo": {
+                "req": "About is a required field",
+                "min": "About must be at least 2 characters",
+                "max": "About must be at most 70 characters"
+            },
+            "mensaje": {
+                "req": "Message is a required field"
+            }
+        }
     },
-    "footer": {
-        "p1": "CV Web"
-    }
+    "footer": {}
 }

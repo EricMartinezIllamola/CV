@@ -14,7 +14,7 @@
     width: 100%;
     min-height: 89vh;
     height: auto;
-    padding-top: 15vh;
+    padding-top: 7em;
     padding-bottom: 5vh;
     padding-left: 10vh;
     padding-right: 5vh;
@@ -59,9 +59,9 @@ section .text_png img {
 
 @media (max-width: 720px) {
     #Project_1, #Project_2 {
-        padding-top: 15vh;
+        padding-top: 4.5em;
         padding-bottom: 5vh;
-        padding-left: 2vh;
-        padding-right: 2vh;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
 }

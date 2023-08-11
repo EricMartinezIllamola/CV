@@ -70,9 +70,26 @@
         "i2": "Email",
         "i3": "Assumpte",
         "i4": "Missatge",
-        "btn": "Enviar"
+        "btn": "Enviar",
+        "error": {
+            "nombre": {
+                "req": "Nom, camp obligatori",
+                "min": "Nombre, mínim 2 caràcters",
+                "max": "Nombre, màxim 30 caràcters"
+            },
+            "email": {
+                "req": "Email, camp obligatori",
+                "email": "Email, format no vàlid"
+            },
+            "motivo": {
+                "req": "Assumpte, camp obligatori",
+                "min": "Assumpte, mínim 2 caràcters",
+                "max": "Assumpte, màxim 70 caràcters"
+            },
+            "mensaje": {
+                "req": "Missatge, camp obligatori"
+            }
+        }
     },
-    "footer": {
-        "p1": "CV Web"
-    }
+    "footer": {}
 }

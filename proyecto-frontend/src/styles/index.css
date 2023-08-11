@@ -105,7 +105,8 @@ header ul li {
     width: 14.3%;
 }
 
-header ul li a, header ul li button {
+header ul li a,
+header ul li button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,13 +124,15 @@ header ul li a, header ul li button {
     border: none;
 }
 
-header ul li a:hover, header ul li button:hover {
+header ul li a:hover,
+header ul li button:hover {
     z-index: 10000;
     color: var(--no_black);
     font-weight: 700;
 }
 
-header ul li a::before, header ul li button::before {
+header ul li a::before,
+header ul li button::before {
     content: "";
     position: absolute;
     top: 0;
@@ -143,13 +146,15 @@ header ul li a::before, header ul li button::before {
     transform-origin: top;
 }
 
-header ul li a:hover::before, header ul li button:hover::before {
+header ul li a:hover::before,
+header ul li button:hover::before {
     transition: transform 700ms;
     transform-origin: left;
     transform: scale(1);
 }
 
-header ul li a::after, header ul li button::after {
+header ul li a::after,
+header ul li button::after {
     content: "";
     position: absolute;
     top: 0;
@@ -165,7 +170,8 @@ header ul li a::after, header ul li button::after {
     transform-origin: bottom left;
 }
 
-header ul li a:hover::after, header ul li button:hover::after {
+header ul li a:hover::after,
+header ul li button:hover::after {
     transition: transform 700ms;
     transform: scale(0);
     transform-origin: right;
@@ -187,7 +193,7 @@ header ul li a:hover::after, header ul li button:hover::after {
 .dropdown ul li a {
     text-decoration: none;
     color: var(--white);
-    padding: 12px auto;   
+    padding: 12px auto;
     display: flex;
     text-align: center;
     width: 100%;
@@ -332,7 +338,7 @@ li:hover ul {
     background-color: var(--no_black);
     position: absolute;
     box-shadow: 10px 30px 50px 25px var(--no_black_05);
-    color: var(--orange_2);
+    color: var(--white);
     border: 3px groove var(--orange);
     z-index: 5;
     backface-visibility: hidden;
@@ -392,7 +398,7 @@ li:hover ul {
     position: absolute;
     transform: rotateY(180deg);
     box-shadow: 10px 20px 30px var(--no_black_05);
-    padding: 25px 25px 0px 25px;
+    padding: 25px 5px 0px 5px;
     border: 3px groove var(--orange);
 }
 
@@ -411,7 +417,7 @@ li:hover ul {
     transform: translate(-50%, -50%);
     transform-style: preserve-3d;
     box-shadow: 10px 20px 40px var(--no_black_05);
-    padding: 25px 25px 0px 10px;
+    padding: 35px 5px 0px 5px;
     border: 3px groove var(--orange);
 }
 
@@ -439,7 +445,7 @@ li:hover ul {
     width: 100%;
 }
 
-.iconos_box_A  {
+.iconos_box_A {
     position: absolute;
     bottom: 30px;
     right: 0px;
@@ -514,7 +520,7 @@ li:hover ul {
     /* width: 19%; */
     font-size: 20px;
     margin-bottom: 10px;
-    background: linear-gradient(90deg, var(--no_black) 65%,  var(--orange) 100%);
+    background: linear-gradient(90deg, var(--no_black) 65%, var(--orange) 100%);
     color: var(--orange_2);
 }
 
@@ -530,16 +536,21 @@ li:hover ul {
     max-height: 60px;
 }
 
-.img_B1, .img_B2, .img_B3 {
+.img_B1,
+.img_B2,
+.img_B3 {
     max-height: 75px;
 }
 
-.img_A, .img_C, .img_D {
+.img_A,
+.img_C,
+.img_D {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.img_E1, .img_E2 {
+.img_E1,
+.img_E2 {
     max-height: 100px;
 }
 
@@ -565,7 +576,7 @@ li:hover ul {
     color: var(--orange_2)
 }
 
-.projects_container{
+.projects_container {
     width: 100%;
     height: 100%;
     padding-left: 5vh;
@@ -583,7 +594,7 @@ li:hover ul {
     justify-content: center;
 }
 
-.project_card{
+.project_card {
     position: relative;
     height: 200px;
     width: 300px;
@@ -655,7 +666,7 @@ li:hover ul {
     padding-left: 5%;
 }
 
-#SoftSkills .accordion{
+#SoftSkills .accordion {
     width: 75%;
 }
 
@@ -666,7 +677,8 @@ li:hover ul {
 #SoftSkills .accordion .accordion-item .accordion-header .accordion-button {
     color: var(--black);
     background-color: var(--orange);
-    box-shadow: none ;
+    box-shadow: none;
+    font-weight: 600;
 }
 
 #SoftSkills .accordion .accordion-item .accordion-collapse .accordion-body {
@@ -858,18 +870,21 @@ footer {
         margin-bottom: 70px;
     }
 
-    header ul li a, header ul li button {
+    header ul li a,
+    header ul li button {
         width: 50%;
         height: auto;
         padding: 14px 16px;
     }
 
-    header ul li a::after, header ul li button::after {
+    header ul li a::after,
+    header ul li button::after {
         border-bottom: 0px transparent solid;
         transform-origin: top left;
     }
 
-    header ul li a:hover::after, header ul li button:hover::after {
+    header ul li a:hover::after,
+    header ul li button:hover::after {
         transform-origin: bottom right;
     }
 
@@ -921,11 +936,16 @@ footer {
         display: none;
     }
 
+    .project_card:hover {
+        transform: scale(1);
+        box-shadow: 0px 20px 40px var(--white);
+    }
+
     .project_content {
         bottom: -50px;
     }
 
-    #SoftSkills .accordion{
+    #SoftSkills .accordion {
         width: 95%;
     }
 
@@ -950,6 +970,7 @@ footer {
     .img:not(:last-child) {
         margin-bottom: 15px;
     }
+
     .iconos_box_F div {
         margin: 0;
         margin-top: 10px;
