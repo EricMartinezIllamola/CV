@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.34e844ed.css",
-    "main.js": "/personal-portfolio/static/js/main.56791b74.js",
+    "main.css": "/personal-portfolio/static/css/main.e64144e9.css",
+    "main.js": "/personal-portfolio/static/js/main.7d94666b.js",
     "static/js/787.b7eb4d41.chunk.js": "/personal-portfolio/static/js/787.b7eb4d41.chunk.js",
     "static/media/rstudio.png": "/personal-portfolio/static/media/rstudio.0689d33971de2d55c378.png",
     "static/media/foto_perfil.jpg": "/personal-portfolio/static/media/foto_perfil.965ae3c9d20bf491546f.jpg",
@@ -53,12 +53,12 @@
     "static/media/countries_num_k2.PNG": "/personal-portfolio/static/media/countries_num_k2.2545f3b7da238a5708fc.PNG",
     "static/media/mining_specificity.PNG": "/personal-portfolio/static/media/mining_specificity.763b2abca02f0d8d6f82.PNG",
     "static/media/mining_sensitivity.PNG": "/personal-portfolio/static/media/mining_sensitivity.50bc585ff5090fff2c3a.PNG",
-    "main.34e844ed.css.map": "/personal-portfolio/static/css/main.34e844ed.css.map",
-    "main.56791b74.js.map": "/personal-portfolio/static/js/main.56791b74.js.map",
+    "main.e64144e9.css.map": "/personal-portfolio/static/css/main.e64144e9.css.map",
+    "main.7d94666b.js.map": "/personal-portfolio/static/js/main.7d94666b.js.map",
     "787.b7eb4d41.chunk.js.map": "/personal-portfolio/static/js/787.b7eb4d41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34e844ed.css",
-    "static/js/main.56791b74.js"
+    "static/css/main.e64144e9.css",
+    "static/js/main.7d94666b.js"
   ]
 }
