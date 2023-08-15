@@ -10,7 +10,7 @@
     --green: green;
 }
 
-#Project_1, #Project_2 {
+.Project_A {
     width: 100%;
     min-height: 89vh;
     height: auto;
@@ -20,11 +20,11 @@
     padding-right: 5vh;
 }
 
-#Project_1 .accordion, #Project_2 .accordion {
+.Project_A .accordion {
     margin-top: 30px;
 }
 
-#Project_1 .accordion .accordion-item .accordion-header .accordion-button, #Project_2 .accordion .accordion-item .accordion-header .accordion-button {
+.Project_A .accordion .accordion-item .accordion-header .accordion-button {
     white-space: pre-line;
     background-color: var(--white);
     color: var(--black);
@@ -32,7 +32,7 @@
     border: 1px solid var(--orange);
 }
 
-#Project_1 .accordion .accordion-item .accordion-collapse .accordion-body, #Project_2 .accordion .accordion-item .accordion-collapse .accordion-body{
+.Project_A .accordion .accordion-item .accordion-collapse .accordion-body{
     white-space: pre-line;
     background-color: var(--no_black);
     color: var(--white);
@@ -52,9 +52,29 @@ section .text_png img {
     max-width: 100%;
 }
 
-#Project_1 p, #Project_2 p {
+.Project_A p {
     white-space: pre-line;
-    /* border: 1px solid var(--green ); */
+}
+
+.proj_start {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--no_black_05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    cursor: pointer;
+}
+
+.proj_start span {
+    transform: scale(2.5);
+    color: var(--orange);
+    margin-top: 5px;
 }
 
 @media (max-width: 720px) {

@@ -48,7 +48,7 @@ function Contact() {
 
 
     return (
-        <section id="Contactar">
+        <section id="Contact">
             <div className="form_box" id="form_box">
                 <h1>{t("contact.h1")}</h1>
                 <form name="formulario" onSubmit={handleSubmit(sendEmail)}>

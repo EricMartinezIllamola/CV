@@ -50,13 +50,11 @@ body {
     width: 100%;
     padding: 0px;
     margin: 0px;
-    /* display: flex;
-    flex-direction: column; */
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 0px;
-} */
+}
 
 section {
     width: 100%;
@@ -220,7 +218,7 @@ li:hover ul {
 
 /* ## Home */
 
-#home {
+#Home {
     background-color: var(--no_black);
     height: 100vh;
     display: flex;
@@ -306,7 +304,7 @@ li:hover ul {
 
 /* ## AboutMe */
 
-#Objetivos {
+#About {
     position: relative;
     background-color: var(--white);
     height: 115vh;
@@ -493,13 +491,10 @@ li:hover ul {
 
 /* ## HardSkills */
 
-#expand_HardSkills {
-    height: 11vh;
-}
-
 #HardSkills {
     height: auto;
     min-height: 90vh;
+    padding-top: 11vh;
     padding-bottom: 5vh;
 }
 
@@ -560,7 +555,7 @@ li:hover ul {
 
 /* ## Projects */
 
-#Experiencia {
+#Projects {
     background-color: var(--no_black);
     height: auto;
     min-height: 90vh;
@@ -570,7 +565,7 @@ li:hover ul {
     border-top: 3px dashed var(--no_black);
 }
 
-#Experiencia h1 {
+#Projects h1 {
     margin-left: 7%;
     margin-bottom: 10vh;
     color: var(--orange_2)
@@ -661,7 +656,7 @@ li:hover ul {
     background-color: var(--white);
     min-height: 100vh;
     height: auto;
-    padding-top: 15vh;
+    padding-top: 11vh;
     padding-bottom: 5vh;
     padding-left: 5%;
 }
@@ -687,8 +682,8 @@ li:hover ul {
 
 /* ## Contact */
 
-#Contactar {
-    min-height: 90vh;
+#Contact {
+    min-height: 80vh;
     height: auto;
     padding-top: 11vh;
     padding-bottom: 5vh;

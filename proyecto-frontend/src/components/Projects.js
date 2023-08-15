@@ -6,7 +6,7 @@ function Projects() {
     const [t, i18n] = useTranslation("index");
 
     return (
-        <section id="Experiencia">
+        <section id="Projects">
             <h1>{t("projects.h1")}</h1>
             <div className="projects_container container-fluid">
                 <div className='row'>

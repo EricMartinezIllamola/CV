@@ -7,9 +7,9 @@ function Home() {
     const [t, i18n] = useTranslation("index");
 
     return (
-        <section id="home">
+        <section id="Home">
             <div className="intro_box">
-                <Link to="/personal-portfolio/#Objetivos">
+                <Link to="/personal-portfolio/#About">
                     <div className="btn_start"></div>
                 </Link>
                 <div className="intro">

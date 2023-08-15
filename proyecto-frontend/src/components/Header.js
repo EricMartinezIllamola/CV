@@ -15,10 +15,10 @@ function Header() {
     return (
         <header id="header">
             <ul className={open_menu ? "mostrar_menu" : ""} >
-                <li className="first_li"><Link to="/personal-portfolio/#home">{t("header.a1")}</Link></li>
-                <li><Link to="/personal-portfolio/#Objetivos">{t("header.a2")}</Link></li>
-                <li><Link to="/personal-portfolio/#expand_HardSkills">{t("header.a3")}</Link></li>
-                <li className="dropdown"><Link to="/personal-portfolio/#Experiencia">{t("header.a4")} <span className="material-symbols-outlined">expand_more</span></Link>
+                <li className="first_li"><Link to="/personal-portfolio/#Home">{t("header.a1")}</Link></li>
+                <li><Link to="/personal-portfolio/#About">{t("header.a2")}</Link></li>
+                <li><Link to="/personal-portfolio/#HardSkills">{t("header.a3")}</Link></li>
+                <li className="dropdown"><Link to="/personal-portfolio/#Projects">{t("header.a4")} <span className="material-symbols-outlined">expand_more</span></Link>
                     <ul className="content_dropdown">
                         <li><Link to="/personal-portfolio/Project_1#Project_1">{t("header.a4_1")}</Link></li>
                         <li><Link to="/personal-portfolio/Project_2#Project_2">{t("header.a4_2")}</Link></li>
@@ -28,7 +28,7 @@ function Header() {
                     </ul>
                 </li>
                 <li><Link to="/personal-portfolio/#SoftSkills">{t("header.a5")}</Link></li>
-                <li><Link to="/personal-portfolio/#Contactar">{t("header.a6")}</Link></li>
+                <li><Link to="/personal-portfolio/#Contact">{t("header.a6")}</Link></li>
                 <li className="dropdown last_li"><button className='idioma'>{t("header.a7")} <span className="material-symbols-outlined">expand_more</span></button>
                     <ul className="content_dropdown">
                         <li><button onClick={()=>handleChangeLng("ca")}>{t("header.a7_1")}</button></li>

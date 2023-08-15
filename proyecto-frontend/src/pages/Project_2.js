@@ -1,11 +1,12 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Project_2() {
     const [t, i18n] = useTranslation("project_2");
 
     return (
-        <section id="Project_2">
+        <section id="Project_2" className='Project_A'>
             <h1>{t("h1")}</h1>
             <p>{t("p1")}</p>
             <h3>{t("t1")}</h3>
@@ -240,6 +241,7 @@ function Project_2() {
                 <p>{t("i21")}</p>
                 <img className='img_P2_21' src={require('../img_2/country_silhouette.png')}></img>
             </div>
+            <div className='proj_start'><Link to="/personal-portfolio/Project_2#Project_2"><span className="material-symbols-outlined">expand_less</span></Link></div>
         </section>)
 }
 

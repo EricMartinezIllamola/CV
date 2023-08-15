@@ -20,7 +20,7 @@ function About() {
     }
 
     return (
-        <section id="Objetivos">
+        <section id="About">
             <div className={`total_card ${open_perfil_card ? "total_card_click" : ""} ${open_perfil_card_2 ? "total_card_disappear" : ""}`}>
                 <div className="perfil_card" onClick={()=>{setOpen_perfil_card(true)}}>
                     <div className="foto_perfil"></div>
