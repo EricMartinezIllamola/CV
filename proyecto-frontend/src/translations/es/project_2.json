@@ -1,5 +1,5 @@
 {
-    "h1": "Clustering",
+    "h1": "Clustering - Countries",
     "p1": "En este proyecto vamos a utilizar el algoritmo de aprendizaje automático K-means para la formación de clusters (grupos o perfiles de países).",
     "t1": "Aprendizaje no supervisado: K-means",
     "p2": "K-means es un algoritmo de aprendizaje automático no supervisado. ¿Qué significa eso? En el aprendizaje no supervisado no le enseñamos a la máquina a partir de ejemplos ya resueltos, sino que más bien es la máquina la que aprende por sí misma. \n \nPor ejemplo, en el proyecto anterior (text mining) hemos utilizado un algoritmo de aprendizaje supervisado (K-NN). Le mostrábamos un documento a la máquina y le decíamos a qué temática pertenece (proceso de aprendizaje o entrenamiento). Luego le mostrábamos un nuevo documento con la intención de que la máquina nos indique a qué temática pertenece (dentro de las temáticas que le hemos enseñado). \n \nCon el aprendizaje no supervisado no existe tal proceso de entrenamiento o aprendizaje 'dirigido'. Por ejemplo, en este proyecto le pasaremos a la máquina un conjunto de datos sobre 167 países y esperaremos que los agrupe en X clusters. Todo esto puede parecer extraño, pero se entenderá mejor a medida que vayamos avanzando.",
