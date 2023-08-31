@@ -22,9 +22,7 @@ function Header() {
                     <ul className="content_dropdown">
                         <li><Link to="/personal-portfolio/Project_1#Project_1">{t("header.a4_1")}</Link></li>
                         <li><Link to="/personal-portfolio/Project_2#Project_2">{t("header.a4_2")}</Link></li>
-                        {/* <li><a href="#">PROJECT 3</a></li>
-                        <li><a href="#">PROJECT 4</a></li>
-                        <li><a href="#">PROJECT 5</a></li> */}
+                        <li><Link to="/personal-portfolio/Project_3#Project_3">{t("header.a4_3")}</Link></li>
                     </ul>
                 </li>
                 <li><Link to="/personal-portfolio/#SoftSkills">{t("header.a5")}</Link></li>

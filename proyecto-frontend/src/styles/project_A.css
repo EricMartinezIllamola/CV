@@ -25,7 +25,7 @@
 }
 
 .Project_A .accordion .accordion-item .accordion-header .accordion-button {
-    white-space: pre-line;
+    white-space: pre-wrap;
     background-color: var(--white);
     color: var(--black);
     box-shadow: none ;
@@ -33,7 +33,7 @@
 }
 
 .Project_A .accordion .accordion-item .accordion-collapse .accordion-body{
-    white-space: pre-line;
+    white-space: pre-wrap;
     background-color: var(--no_black);
     color: var(--white);
 }

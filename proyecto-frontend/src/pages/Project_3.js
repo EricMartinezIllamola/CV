@@ -135,34 +135,85 @@ function Project_3() {
                 <img className='img_P3_13' src={require('../img_3/seguros_k5_num.PNG')}></img>
             </div>
             <p>{t("p4")}</p>
+            <p>{t("p5")}</p>
             <div className='text_png'>
-                <p></p>
+                <p>{t("i14")}</p>
                 <img className='img_P3_14' src={require('../img_3/seguros_k5_veh_exp.png')}></img>
             </div>
             <div className='text_png'>
-                <p></p>
+                <p>{t("i15")}</p>
                 <img className='img_P3_15' src={require('../img_3/seguros_k5_veh_edad.png')}></img>
             </div>
             <div className='text_png'>
-                <p></p>
+                <p>{t("i16")}</p>
                 <img className='img_P3_16' src={require('../img_3/seguros_k5_veh_fid.png')}></img>
             </div>
+            <div class="accordion" id="accordionPanelsStayOpen_6">
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne_6" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <p>{t("a6.p")}</p>
+                        </button>
+                    </p>
+                    <div id="panelsStayOpen-collapseOne_6" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            {t("a6.c")}
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className='text_png'>
-                <p></p>
+                <p>{t("i17")}</p>
                 <img className='img_P3_17' src={require('../img_3/seguros_k7_agg.PNG')}></img>
             </div>
             <div className='text_png'>
-                <p></p>
+                <p>{t("i18")}</p>
                 <img className='img_P3_18' src={require('../img_3/seguros_k7_num.PNG')}></img>
             </div>
+            <p>{t("p6")}</p>
+            <p>{t("p7")}</p>
+            <div class="accordion" id="accordionPanelsStayOpen_7">
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne_7" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <p>{t("a7.p")}</p>
+                        </button>
+                    </p>
+                    <div id="panelsStayOpen-collapseOne_7" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            {t("a7.c")}
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className='text_png'>
-                <p></p>
+                <p>{t("i19")}</p>
                 <img className='img_P3_19' src={require('../img_3/seguros_elbow.png')}></img>
             </div>
             <div className='text_png'>
-                <p></p>
-                <img className='img_P3_20' src={require('../img_3/seguros_silhouette.png')}></img>
+                <p>{t("i20")}</p>
+                <img className='img_P3_20' src={require('../img_3/seguros_formula.PNG')}></img>
             </div>
+            <p>{t("p8")}</p>
+            <div class="accordion" id="accordionPanelsStayOpen_8">
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne_8" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <p>{t("a8.p")}</p>
+                        </button>
+                    </p>
+                    <div id="panelsStayOpen-collapseOne_8" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            {t("a8.c")}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='text_png'>
+                <p>{t("i21")}</p>
+                <img className='img_P3_21' src={require('../img_3/seguros_silhouette.png')}></img>
+            </div>
+            <p>{t("p9")}</p>
             <div className='proj_start'><Link to="/personal-portfolio/Project_3#Project_3"><span className="material-symbols-outlined">expand_less</span></Link></div>
         </section>)
 }

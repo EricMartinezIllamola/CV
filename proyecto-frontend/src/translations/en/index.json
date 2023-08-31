@@ -6,6 +6,7 @@
         "a4": "Projects",
         "a4_1": "Text Mining",
         "a4_2": "Clustering",
+        "a4_3": "Clustering 2",
         "a5": "Soft Skills",
         "a6": "Contact",
         "a7": "Lenguage",
@@ -55,7 +56,9 @@
         "t1": "Text Mining",
         "p1": "Data Science, Machine Learning, RStudio, Text Mining, Topic Model, K-NN",
         "t2": "Clustering",
-        "p2": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, maxime!"
+        "p2": "Data Science, Machine Learning, RStudio, Clustering, K-Means",
+        "t3": "Clustering 2",
+        "p3": "Data Science, Machine Learning, RStudio, Clustering, K-Means"
     },
     "soft": {
         "h1": "Soft Skills",

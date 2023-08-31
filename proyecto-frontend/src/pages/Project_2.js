@@ -223,24 +223,7 @@ function Project_2() {
                 <p>{t("i20")}</p>
                 <img className='img_P2_20' src={require('../img_2/countries_num_k5.PNG')}></img>
             </div>
-            <div class="accordion" id="accordionPanelsStayOpen_10">
-                <div class="accordion-item">
-                    <p class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne_10" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                            <p>{t("a10.p")}</p>
-                        </button>
-                    </p>
-                    <div id="panelsStayOpen-collapseOne_10" class="accordion-collapse collapse">
-                        <div class="accordion-body">
-                            {t("a10.c")}
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className='text_png'>
-                <p>{t("i21")}</p>
-                <img className='img_P2_21' src={require('../img_2/country_silhouette.png')}></img>
-            </div>
+            <p>{t("p9")}</p>
             <div className='proj_start'><Link to="/personal-portfolio/Project_2#Project_2"><span className="material-symbols-outlined">expand_less</span></Link></div>
         </section>)
 }

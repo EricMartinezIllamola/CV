@@ -65,9 +65,5 @@
     },
     "i19": "Visualizamos, para cada uno de los 5 grupos que hemos creado, la media de las diferentes variables. \n \nknitr::kable(aggregate(.~clusterKmeans,FUN=mean, data=clus_kmeans), 'simple')",
     "i20": "Visualizamos, para cada uno de los 5 grupos que hemos creado, el número de países clasificados en ese grupo. \n \nknitr::kable(table(clus_kmeans$clusterKmeans), 'simple')",
-    "a10": {
-        "p": "Silhouette",
-        "c": "library(cluster) \nsilhouette_score <- function(k){ \n km <- kmeans(clus_norm, centers = k, nstart=25) \n ss <- silhouette(km$cluster, dist(clus_norm)) \n mean(ss[, 3]) \n} \nk <- 2:10 \navg_sil <- sapply(k, silhouette_score)"
-    },
-    "i21": "plot(k, type='b', avg_sil, xlab='Number of clusters', ylab='Average Silhouette Scores', frame=FALSE)"
+    "p9": "En este punto ya podemos dar por finalizado el clustering. A diferencia de lo que ocurre en los algoritmos supervisados, en los algoritmos no supervisados no realizamos una validación de los resultados (por lo menos no una validación numérica): no podemos comprobar el tanto por ciento de acierto de nuestro modelo. \n \nPara 'validar los resultados', es decir, para decidir si el proceso de clustering o segmentación realizado se ajusta a nuestros objetivos y aporta valor a nuestro proyecto, se requieren ciertos conocimientos específicos del ámbito de negocio que estamos analizando (en este caso, conocimientos  sobre sociología, económica y sistemas sanitarios). \n \nEn el siguiente proyecto continuaremos utilizando el clustering, pero esta vez realizando análisis más relacionados con el ámbito empresarial, por ejemplo, la segmentación de clientes o la segmentación de productos."
 }

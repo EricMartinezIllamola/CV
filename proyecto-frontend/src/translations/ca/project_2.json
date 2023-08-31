@@ -1,12 +1,12 @@
 {
-    "h1": "Clustering",
+    "h1": "Clustering - Countries",
     "p1": "En este proyecto vamos a utilizar el algoritmo de aprendizaje automático K-means para la formación de clusters (grupos o perfiles de países).",
     "t1": "Aprendizaje no supervisado: K-means",
     "p2": "K-means es un algoritmo de aprendizaje automático no supervisado. ¿Qué significa eso? En el aprendizaje no supervisado no le enseñamos a la máquina a partir de ejemplos ya resueltos, sino que más bien es la máquina la que aprende por sí misma. \n \nPor ejemplo, en el proyecto anterior (text mining) hemos utilizado un algoritmo de aprendizaje supervisado (K-NN). Le mostrábamos un documento a la máquina y le decíamos a qué temática pertenece (proceso de aprendizaje o entrenamiento). Luego le mostrábamos un nuevo documento con la intención de que la máquina nos indique a qué temática pertenece (dentro de las temáticas que le hemos enseñado). \n \nCon el aprendizaje no supervisado no existe tal proceso de entrenamiento o aprendizaje 'dirigido'. Por ejemplo, en este proyecto le pasaremos a la máquina un conjunto de datos sobre 167 países y esperaremos que los agrupe en X clusters. Todo esto puede parecer extraño, pero se entenderá mejor a medida que vayamos avanzando.",
     "p3": "Empecemos. Nuestros datos de partida ('Country-data.csv') recogen información sociodemográfica y económica de 167 países, en particular se muestran las siguientes variables: \n \ncountry: Nombre del país \n \nchild_mort: Mortalidad infantil, de niños menores de 5 años, por cada 1000 nacimientos \n \nexports: Exportación de bienes y servicios per cápita. En forma del porcentaje del PIB per cápita \n \nhealth: Total de gasto en sanidad per cápita. En forma del porcentaje del PIB per cápita \n \nimports: Importación de bienes y servicios per cápita. En forma del porcentaje del PIB per cápita \n \nincome: Ingresos netos por persona \n \ninflation: Inflación, crecimiento anual del PIB total \n \nlife_expec: Esperanza de vida, de un recién nacido, suponiendo que los patrones de mortalidad actuales se mantienen igual en el futuro \n \ntotal_fer: Número de nacimientos por mujer, suponiendo que los porcentajes de fertilidad por edades se mantienen igual en el futuro \n \ngdpp: PIB per cápita. Calculado como el PIB total dividido entre la población total",
     "a1": {
         "p": "Empezamos definiendo el directorio de trabajo y cargando los datos.",
-        "c": "Empezamos definiendo el directorio de trabajo y cargando los datos."
+        "c": "#Definimos directorio de trabajo y cargamos los datos \n \nsetwd(“ruta”) \ncountries = read.csv('Country-data.csv', na.string = c('', 'NA'))"
     },
     "i1": "Visualizamos los primeros 6 registros de 'countries' a modo de ejemplo. \n \nhead(countries)",
     "p4": "El objetivo del análisis es separar los países en diferentes grupos en base a la salud de sus ciudadanos (child_mort y life_expec), a su riqueza (gdpp y income) y al nivel de gasto en salud (health). ¿Qué clase de países existen? ¿Todos los países ricos han logrado obtener un buen nivel de salud? ¿Existen países con un elevado nivel de salud aun disponiendo de un nivel de riqueza limitada? ¿Un elevado gasto en salud (health) implica siempre una mejora en los indicadores de la salud de los ciudadanos (child_mort y life_expec)?",
@@ -65,9 +65,5 @@
     },
     "i19": "Visualizamos, para cada uno de los 5 grupos que hemos creado, la media de las diferentes variables. \n \nknitr::kable(aggregate(.~clusterKmeans,FUN=mean, data=clus_kmeans), 'simple')",
     "i20": "Visualizamos, para cada uno de los 5 grupos que hemos creado, el número de países clasificados en ese grupo. \n \nknitr::kable(table(clus_kmeans$clusterKmeans), 'simple')",
-    "a10": {
-        "p": "Silhouette",
-        "c": "library(cluster) \nsilhouette_score <- function(k){ \n km <- kmeans(clus_norm, centers = k, nstart=25) \n ss <- silhouette(km$cluster, dist(clus_norm)) \n mean(ss[, 3]) \n} \nk <- 2:10 \navg_sil <- sapply(k, silhouette_score)"
-    },
-    "i21": "plot(k, type='b', avg_sil, xlab='Number of clusters', ylab='Average Silhouette Scores', frame=FALSE)"
+    "p9": "En este punto ya podemos dar por finalizado el clustering. A diferencia de lo que ocurre en los algoritmos supervisados, en los algoritmos no supervisados no realizamos una validación de los resultados (por lo menos no una validación numérica): no podemos comprobar el tanto por ciento de acierto de nuestro modelo. \n \nPara 'validar los resultados', es decir, para decidir si el proceso de clustering o segmentación realizado se ajusta a nuestros objetivos y aporta valor a nuestro proyecto, se requieren ciertos conocimientos específicos del ámbito de negocio que estamos analizando (en este caso, conocimientos  sobre sociología, económica y sistemas sanitarios). \n \nEn el siguiente proyecto continuaremos utilizando el clustering, pero esta vez realizando análisis más relacionados con el ámbito empresarial, por ejemplo, la segmentación de clientes o la segmentación de productos."
 }

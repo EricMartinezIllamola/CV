@@ -33,13 +33,15 @@ function Projects() {
                         </Link>
                     </div>
                     <div className='col'>
-                        <div className="project_card">
-                            <div className="project_img"></div>
-                            <div className="project_content">
-                                <h2>Project X</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, maxime!</p>
+                        <Link to="/personal-portfolio/Project_3#Project_3">
+                            <div className="project_card">
+                                <div className="project_img project_img_3"></div>
+                                <div className="project_content">
+                                    <h2>{t("projects.t3")}</h2>
+                                    <p>{t("projects.p3")}</p>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     <div className='col'>
                         <div className="project_card">

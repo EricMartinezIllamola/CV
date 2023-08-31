@@ -624,6 +624,10 @@ li:hover ul {
     background-image: url(../img_2/countries_head_5.PNG);
 }
 
+.project_img_3 {
+    background-image: url(../img_3/seguros_experiencia.png);
+}
+
 .project_content {
     position: absolute;
     flex-direction: column;
