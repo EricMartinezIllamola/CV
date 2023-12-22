@@ -7,6 +7,9 @@
         "a4_1": "Text Mining",
         "a4_2": "Clustering",
         "a4_3": "Clustering 2",
+        "a4_4": "Rental Prices BCN",
+        "a4_5": "Tesco FAQs",
+        "a4_6": "InnovaTech SQL",
         "a5": "Soft Skills",
         "a6": "Contact",
         "a7": "Lenguage",
@@ -58,7 +61,13 @@
         "t2": "Clustering",
         "p2": "Data Science, Machine Learning, RStudio, Clustering, K-Means",
         "t3": "Clustering 2",
-        "p3": "Data Science, Machine Learning, RStudio, Clustering, K-Means"
+        "p3": "Data Science, Machine Learning, RStudio, Clustering, K-Means",
+        "t4": "Rental Prices BCN",
+        "p4": "Data Science, Python, Pandas, PCA, Data Visualization",
+        "t5": "Tesco FAQs",
+        "p5": "AI, NLP, LLM, LangChain, FAISS, GooglePaLM, Streamlit",
+        "t6": "InnovaTech SQL",
+        "p6": "AI, SQL, LLM, LangChain, SQLite, GooglePaLM, Streamlit"
     },
     "soft": {
         "h1": "Soft Skills",

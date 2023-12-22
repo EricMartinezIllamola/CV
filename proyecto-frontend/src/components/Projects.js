@@ -44,22 +44,37 @@ function Projects() {
                         </Link>
                     </div>
                     <div className='col'>
-                        <div className="project_card">
-                            <div className="project_img"></div>
-                            <div className="project_content">
-                                <h2>Project X</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, maxime!</p>
+                        <Link to="https://nbviewer.org/github/EricMartinezIllamola/J2D23_Hackaton/blob/48114150cdc0d41967224d6b165528c787b2314d/Hackaton_00.ipynb" target="_blank">
+                            <div className="project_card">
+                                <div className="project_img project_img_4"></div>
+                                <div className="project_content">
+                                <h2>{t("projects.t4")}</h2>
+                                <p>{t("projects.p4")}</p>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     <div className='col'>
-                        <div className="project_card">
-                            <div className="project_img"></div>
-                            <div className="project_content">
-                                <h2>Project X</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, maxime!</p>
+                        <Link to="https://ericmartinezillamola-llm-faqs.streamlit.app/" target="_blank">
+                            <div className="project_card">
+                                <div className="project_img project_img_5"></div>
+                                <div className="project_content">
+                                <h2>{t("projects.t5")}</h2>
+                                <p>{t("projects.p5")}</p>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
+                    </div>
+                    <div className='col'>
+                        <Link to="https://ericmartinezillamola-llm-sql.streamlit.app/" target="_blank">
+                            <div className="project_card">
+                                <div className="project_img project_img_6"></div>
+                                <div className="project_content">
+                                <h2>{t("projects.t6")}</h2>
+                                <p>{t("projects.p6")}</p>
+                                </div>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>

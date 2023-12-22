@@ -23,6 +23,9 @@ function Header() {
                         <li><Link to="/personal-portfolio/Project_1#Project_1">{t("header.a4_1")}</Link></li>
                         <li><Link to="/personal-portfolio/Project_2#Project_2">{t("header.a4_2")}</Link></li>
                         <li><Link to="/personal-portfolio/Project_3#Project_3">{t("header.a4_3")}</Link></li>
+                        <li><Link to="https://nbviewer.org/github/EricMartinezIllamola/J2D23_Hackaton/blob/48114150cdc0d41967224d6b165528c787b2314d/Hackaton_00.ipynb" target="_blank">{t("header.a4_4")}</Link></li>
+                        <li><Link to="https://ericmartinezillamola-llm-faqs.streamlit.app/" target="_blank">{t("header.a4_5")}</Link></li>
+                        <li><Link to="https://ericmartinezillamola-llm-sql.streamlit.app/" target="_blank">{t("header.a4_6")}</Link></li>
                     </ul>
                 </li>
                 <li><Link to="/personal-portfolio/#SoftSkills">{t("header.a5")}</Link></li>

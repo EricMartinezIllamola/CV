@@ -30,10 +30,10 @@ function Footer() {
                         <button onClick={cv_download}>{t("about.card.pdf")}</button>
                     </div>
                     <div className="col-12 col-sm">
-                        <a href='https://www.linkedin.com/in/ericmartinezillamola' target="_blank" className="iconos icono_lin"></a>
+                        <a href='https://www.linkedin.com/in/ericmartinezillamola' target="_blank" rel="noopener noreferrer" className="iconos icono_lin" aria-label="LinkedIn Profile"></a>
                     </div>
                     <div className="col-12 col-sm">
-                        <a href="https://github.com/ericmartinezillamola" target="_blank" className="iconos icono_git"></a>
+                        <a href="https://github.com/ericmartinezillamola" target="_blank" rel="noopener noreferrer" className="iconos icono_git" aria-label="GitHub Profile"></a>
                     </div>
                 </div>
             </div>

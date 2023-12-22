@@ -23,7 +23,8 @@ function About() {
         <section id="About">
             <div className={`total_card ${open_perfil_card ? "total_card_click" : ""} ${open_perfil_card_2 ? "total_card_disappear" : ""}`}>
                 <div className="perfil_card" onClick={()=>{setOpen_perfil_card(true)}}>
-                    <div className="foto_perfil"></div>
+                    {/* <div className="foto_perfil"></div> */}
+                    <img className="foto_perfil" src={require('../img/foto_perfil.jpg')} alt=''></img>
                     <ul className="ul_perfil_1">
                         <li>{t("about.front.t1")}</li>
                         <li>{t("about.front.t2")}</li>
@@ -65,8 +66,8 @@ function About() {
                 </ul>
                 <div className="iconos_box iconos_box_A">
                     <button onClick={cv_download}>{t("about.card.pdf")}</button>
-                    <a href='https://www.linkedin.com/in/ericmartinezillamola' target="_blank" className="iconos icono_lin"></a>
-                    <a href="https://github.com/ericmartinezillamola" target="_blank" className="iconos icono_git"></a>
+                    <a href='https://www.linkedin.com/in/ericmartinezillamola' target="_blank" rel="noopener noreferrer" className="iconos icono_lin" aria-label="LinkedIn Profile"></a>
+                    <a href="https://github.com/ericmartinezillamola" target="_blank" rel="noopener noreferrer" className="iconos icono_git" aria-label="GitHub Profile"></a>
                 </div>
             </div>
         </section>
